@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-06-25T08:49:54Z",
-  "total_skills": 50,
-  "skills_with_descriptions": 50,
-  "skills_with_triggers": 43,
+  "generated_at": "2026-06-25T19:00:01Z",
+  "total_skills": 51,
+  "skills_with_descriptions": 51,
+  "skills_with_triggers": 44,
   "categories": [
     "ai",
     "bigdata",
@@ -354,6 +354,26 @@
         "instance",
         "image",
         "scaling"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-dws-cpu-diag",
+      "category": "bigdata",
+      "service": "dws",
+      "services": [
+        "dws"
+      ],
+      "description": "DWS cluster CPU high root cause diagnosis skill, based on KooCLI v3.2.0+ and DWS Autopilot MCP Server.\n  Automatically collects CPU metrics, analyzes root causes (customer-side / system-side), and outputs a standardized diagnosis report.\n  Applicable to DWS cluster CPU usage too high, CPU alarms, CPU load anomaly scenarios.\n  Trigger words: \"CPU高\", \"CPU告警\", \"CPU诊断\", \"CPU使用率过高\", \"CPU满\", \"high CPU\", \"CPU alarm\", \"CPU diagnosis\"\ntags: [huawei-cloud, dws, cpu, diagnostics, autopilot]",
+      "triggers": [
+        "words: \"CPU高",
+        "CPU告警",
+        "CPU诊断",
+        "CPU使用率过高",
+        "CPU满",
+        "high CPU",
+        "CPU alarm",
+        "CPU diagnosis"
       ],
       "has_description": true
     },
