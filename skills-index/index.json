@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-06-25T19:00:01Z",
-  "total_skills": 51,
-  "skills_with_descriptions": 51,
-  "skills_with_triggers": 44,
+  "generated_at": "2026-06-28T19:00:01Z",
+  "total_skills": 55,
+  "skills_with_descriptions": 55,
+  "skills_with_triggers": 47,
   "categories": [
     "ai",
     "bigdata",
@@ -378,6 +378,55 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-dws-io-diag",
+      "category": "bigdata",
+      "service": "dws",
+      "services": [
+        "dws"
+      ],
+      "description": "DWS cluster I/O overload root cause diagnosis skill, based on KooCLI v3.2.0+ and DWS Autopilot MCP Server.\n  Automatically collects I/O metrics, analyzes root causes (customer-side / system-side) via three-stage decision tree, and outputs a standardized diagnosis report.\n  Applicable to DWS cluster I/O usage too high, I/O alarms, disk I/O load anomaly scenarios.\n  Trigger words: \"I/O高\", \"I/O告警\", \"I/O诊断\", \"I/O过载\", \"IO高\", \"IO告警\", \"IO诊断\", \"IO过载\", \"磁盘IO负载异常\", \"util打满\", \"await高\", \"high I/O\", \"I/O alarm\", \"I/O diagnosis\"\ntags: [huawei-cloud, dws, io, diagnostics, autopilot]",
+      "triggers": [
+        "words: \"I/O高",
+        "I/O告警",
+        "I/O诊断",
+        "I/O过载",
+        "IO高",
+        "IO告警",
+        "IO诊断",
+        "IO过载",
+        "磁盘IO负载异常",
+        "util打满",
+        "await高",
+        "high I/O",
+        "I/O alarm",
+        "I/O diagnosis"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-dws-mem-diag",
+      "category": "bigdata",
+      "service": "dws",
+      "services": [
+        "dws"
+      ],
+      "description": "DWS cluster memory high root cause diagnosis skill, based on KooCLI v3.2.0+ and DWS Autopilot MCP Server.\n  Automatically collects memory metrics, analyzes root causes (customer-side / system-side), and outputs a standardized diagnosis report.\n  Applicable to DWS cluster memory usage too high, memory alarms, OOM scenarios.\n  Trigger words: \"内存高\", \"内存告警\", \"内存诊断\", \"内存使用率过高\", \"内存不足\", \"OOM\", \"内存溢出\", \"动态内存使用率超阈值\", \"high memory\", \"memory alarm\", \"memory diagnosis\"\ntags: [huawei-cloud, dws, memory, diagnostics, autopilot]",
+      "triggers": [
+        "words: \"内存高",
+        "内存告警",
+        "内存诊断",
+        "内存使用率过高",
+        "内存不足",
+        "OOM",
+        "内存溢出",
+        "动态内存使用率超阈值",
+        "high memory",
+        "memory alarm",
+        "memory diagnosis"
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-dws-sql-check",
       "category": "bigdata",
       "service": "dws",
@@ -410,6 +459,18 @@
         "告警规则",
         "查询告警"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-ecs-passwordless-login",
+      "category": "computing",
+      "service": "ecs",
+      "services": [
+        "ecs",
+        "iam"
+      ],
+      "description": "Configure passwordless SSH login to Huawei Cloud ECS instances using COC (Cloud Operations Center). Automates IAM agency authorization, SSH key pair generation, COC script deployment to the target ECS, SSH connection testing, and automatic security cleanup after 60 seconds (removing keys from both local and remote).\n  触发词: 免密登录, COC SSH, ECS key login, SSH key deployment, passwordless SSH",
+      "triggers": [],
       "has_description": true
     },
     {
@@ -1175,6 +1236,28 @@
         "UCS 合规治理",
         "policy governance",
         "策略治理"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-vod-collector",
+      "category": "devtools",
+      "service": "common",
+      "services": [],
+      "description": "Invoke this skill to capture poor experiences and distill them into high-value requirements (Voice of Developer). Use when user encounters any Huawei Cloud related issues, like user expresses dissatisfaction, encounters errors, or wants to report issues/suggestions.Triggers include: \"体验差\",\"反馈问题\",\"反馈建议\",\"这个有bug\",\"拒绝了请求\",\"报告问题\",\"反馈体验\",\"report a problem\",\"report a suggestion\",\"bug report\",\"poor experience\",\"voice of developer\"",
+      "triggers": [
+        "s include: \"体验差",
+        "反馈问题",
+        "反馈建议",
+        "这个有bug",
+        "拒绝了请求",
+        "报告问题",
+        "反馈体验",
+        "report a problem",
+        "report a suggestion",
+        "bug report",
+        "poor experience",
+        "voice of developer"
       ],
       "has_description": true
     }
