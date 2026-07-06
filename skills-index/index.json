@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-05T19:00:00Z",
-  "total_skills": 55,
-  "skills_with_descriptions": 55,
-  "skills_with_triggers": 47,
+  "generated_at": "2026-07-06T19:00:02Z",
+  "total_skills": 56,
+  "skills_with_descriptions": 56,
+  "skills_with_triggers": 48,
   "categories": [
     "ai",
     "bigdata",
@@ -471,6 +471,26 @@
       ],
       "description": "Configure passwordless SSH login to Huawei Cloud ECS instances using COC (Cloud Operations Center). Automates IAM agency authorization, SSH key pair generation, COC script deployment to the target ECS, SSH connection testing, and automatic security cleanup after 60 seconds (removing keys from both local and remote).\n  触发词: 免密登录, COC SSH, ECS key login, SSH key deployment, passwordless SSH",
       "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-ecs-sqlbot-deploy",
+      "category": "computing",
+      "service": "flexus-x",
+      "services": [],
+      "description": "Purchase Huawei Cloud X Instance server + one-click deploy SQLBot intelligent query application.\n  Tech stack: Python 3.8+, Huawei Cloud SDK, COC (Cloud Operations Center) deployment.\n  Key capabilities: AK/SK auth, X instance creation, auto security group config, SQLBot auto deployment.\n  Use cases: Users who need to quickly deploy SQLBot intelligent query application on Huawei Cloud X instance servers.\n  Trigger words: \"deploy sqlbot\", \"install sqlbot\", \"sqlbot deploy\", \"one-click deploy sqlbot\", \"x-instance deploy sqlbot\", \"部署sqlbot\", \"安装sqlbot\", \"sqlbot部署\", \"一键部署sqlbot\", \"x实例部署sqlbot\".\ntags: [huawei-cloud, x-instance, sqlbot, deployment]\nmetadata:\n  openclaw:\n    requires:\n      bins: [python3]\n      env: [HW_ACCESS_KEY, HW_SECRET_KEY, HW_SECURITY_TOKEN]\n    os: [linux, darwin]\n    install:\n      - name: pip-install\n        command: pip install -i https://repo.huaweicloud.com/repository/pypi/simple huaweicloudsdkcore huaweicloudsdkecs huaweicloudsdkcoc requests\n        check: python3 -c \"import huaweicloudsdkcore; import huaweicloudsdkecs; import huaweicloudsdkcoc\"",
+      "triggers": [
+        "words: \"deploy sqlbot",
+        "install sqlbot",
+        "sqlbot deploy",
+        "one-click deploy sqlbot",
+        "x-instance deploy sqlbot",
+        "部署sqlbot",
+        "安装sqlbot",
+        "sqlbot部署",
+        "一键部署sqlbot",
+        "x实例部署sqlbot\""
+      ],
       "has_description": true
     },
     {
