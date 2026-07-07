@@ -2,9 +2,9 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-06T19:00:02Z",
-  "total_skills": 56,
-  "skills_with_descriptions": 56,
+  "generated_at": "2026-07-07T19:00:01Z",
+  "total_skills": 57,
+  "skills_with_descriptions": 57,
   "skills_with_triggers": 48,
   "categories": [
     "ai",
@@ -324,6 +324,15 @@
         "cli"
       ],
       "description": ">-",
+      "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-codearts-code-gen",
+      "category": "devtools",
+      "service": "cli",
+      "services": [],
+      "description": ">",
       "triggers": [],
       "has_description": true
     },
