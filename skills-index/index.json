@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-08T19:00:00Z",
-  "total_skills": 57,
-  "skills_with_descriptions": 57,
-  "skills_with_triggers": 48,
+  "generated_at": "2026-07-09T19:00:02Z",
+  "total_skills": 59,
+  "skills_with_descriptions": 59,
+  "skills_with_triggers": 50,
   "categories": [
     "ai",
     "bigdata",
@@ -1032,6 +1032,64 @@
         "YOLO训练",
         "GPU训练",
         "视觉模型训练"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-skill-creator",
+      "category": "devtools",
+      "service": "cli",
+      "services": [
+        "cli"
+      ],
+      "description": "Invoke this skill to create, build, scaffold and package Huawei Cloud (华为云) agent skills.Triggers include: \"创建华为云Skill\",\"新建华为云Skill\",\"华为云skill创建器\",\"创建 Skill\",\"新建 Skill\",\"skill 创建器\",\"create skill\",\"build skill\",\"new skill\",\"skill creator\",\"scaffold a Huawei Cloud skill\",\"wrap CLI or OpenAPI into a skill\",\"package cloud operations into a skill\",\"帮我创建华为云Skill\",\"帮我新建一个Skill\",\"封装华为云CLI为Skill\",\"华为云Skill脚手架\".\ntrigger: create-skill, build-skill, new-skill, skill-creator, 创建-Skill, 新建-Skill, skill-创建器, scaffold-skill, huawei-cloud-skill\ntags: [huawei-cloud, skill-creator, skill-development, cli, devops]",
+      "triggers": [
+        "s include: \"创建华为云Skill",
+        "新建华为云Skill",
+        "华为云skill创建器",
+        "创建 Skill",
+        "新建 Skill",
+        "skill 创建器",
+        "create skill",
+        "build skill",
+        "new skill",
+        "skill creator",
+        "scaffold a Huawei Cloud skill",
+        "wrap CLI or OpenAPI into a skill",
+        "package cloud operations into a skill",
+        "帮我创建华为云Skill",
+        "帮我新建一个Skill",
+        "封装华为云CLI为Skill",
+        "华为云Skill脚手架\""
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-skill-creator",
+      "category": "devtools",
+      "service": "cli",
+      "services": [
+        "cli"
+      ],
+      "description": "调用此技能来创建、构建、脚手架生成和打包华为云 Agent Skill.Triggers include: \"创建华为云Skill\",\"新建华为云Skill\",\"华为云skill创建器\",\"创建 Skill\",\"新建 Skill\",\"skill 创建器\",\"create skill\",\"build skill\",\"new skill\",\"skill creator\",\"scaffold a Huawei Cloud skill\",\"wrap CLI or OpenAPI into a skill\",\"package cloud operations into a skill\",\"帮我创建华为云Skill\",\"帮我新建一个Skill\",\"封装华为云CLI为Skill\",\"华为云Skill脚手架\".\ntrigger: 创建-Skill, 新建-Skill, skill-创建器, create-skill, build-skill, new-skill, skill-creator, scaffold-skill, huawei-cloud-skill\ntags: [huawei-cloud, skill-creator, skill-development, cli, devops]",
+      "triggers": [
+        "s include: \"创建华为云Skill",
+        "新建华为云Skill",
+        "华为云skill创建器",
+        "创建 Skill",
+        "新建 Skill",
+        "skill 创建器",
+        "create skill",
+        "build skill",
+        "new skill",
+        "skill creator",
+        "scaffold a Huawei Cloud skill",
+        "wrap CLI or OpenAPI into a skill",
+        "package cloud operations into a skill",
+        "帮我创建华为云Skill",
+        "帮我新建一个Skill",
+        "封装华为云CLI为Skill",
+        "华为云Skill脚手架\""
       ],
       "has_description": true
     },
