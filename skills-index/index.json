@@ -2,14 +2,15 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-09T19:00:02Z",
-  "total_skills": 59,
-  "skills_with_descriptions": 59,
+  "generated_at": "2026-07-10T19:00:02Z",
+  "total_skills": 60,
+  "skills_with_descriptions": 60,
   "skills_with_triggers": 50,
   "categories": [
     "ai",
     "bigdata",
     "bss",
+    "cdi",
     "computing",
     "container",
     "devtools",
@@ -771,6 +772,40 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-icp-process-guidance",
+      "category": "cdi",
+      "service": "assist",
+      "services": [],
+      "description": "华为云ICP备案知识问答Skill。\n  自带 ICP备案知识库（./kb/），开箱即用。\n  当用户提到华为云/ICP备案/网站备案/App备案 + 流程/材料/条件/问题/驳回/授权码/审核时触发。\n  只回答ICP备案相关问题，其他问题礼貌拒绝。\ntags: [huawei-cloud, icp-filing, faq, knowledge-base]\nversion: 1.1.0",
+      "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-icp-rule-consult",
+      "category": "cdi",
+      "service": "dns",
+      "services": [
+        "dns"
+      ],
+      "description": "ICP Filing (备案) rule consultation skill for Huawei Cloud. Based on Python 3.9+ with requests/Playwright, answers whether ICP filing is required, filing process & materials, account & entity limits, change filing, access filing, cancellation filing, APP filing, and migration/transfer filing. Read-only consultation, no filing operations on behalf of users.\n  Use only when the user explicitly mentions 备案/ICP备案/备案规则/备案流程/接入备案/变更备案/注销备案/APP备案/迁移备案; refuses domain registration, DNS configuration, server purchase, real-name authentication, pricing.",
+      "triggers": [
+        "备案",
+        "ICP备案",
+        "备案规则",
+        "备案流程",
+        "接入备案",
+        "变更备案",
+        "注销备案",
+        "APP备案",
+        "迁移备案",
+        "转移备案",
+        "管局要求",
+        "备案材料",
+        "备案授权码"
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-maas-tokens-usage",
       "category": "ai",
       "service": "maas",
@@ -1043,35 +1078,6 @@
         "cli"
       ],
       "description": "Invoke this skill to create, build, scaffold and package Huawei Cloud (华为云) agent skills.Triggers include: \"创建华为云Skill\",\"新建华为云Skill\",\"华为云skill创建器\",\"创建 Skill\",\"新建 Skill\",\"skill 创建器\",\"create skill\",\"build skill\",\"new skill\",\"skill creator\",\"scaffold a Huawei Cloud skill\",\"wrap CLI or OpenAPI into a skill\",\"package cloud operations into a skill\",\"帮我创建华为云Skill\",\"帮我新建一个Skill\",\"封装华为云CLI为Skill\",\"华为云Skill脚手架\".\ntrigger: create-skill, build-skill, new-skill, skill-creator, 创建-Skill, 新建-Skill, skill-创建器, scaffold-skill, huawei-cloud-skill\ntags: [huawei-cloud, skill-creator, skill-development, cli, devops]",
-      "triggers": [
-        "s include: \"创建华为云Skill",
-        "新建华为云Skill",
-        "华为云skill创建器",
-        "创建 Skill",
-        "新建 Skill",
-        "skill 创建器",
-        "create skill",
-        "build skill",
-        "new skill",
-        "skill creator",
-        "scaffold a Huawei Cloud skill",
-        "wrap CLI or OpenAPI into a skill",
-        "package cloud operations into a skill",
-        "帮我创建华为云Skill",
-        "帮我新建一个Skill",
-        "封装华为云CLI为Skill",
-        "华为云Skill脚手架\""
-      ],
-      "has_description": true
-    },
-    {
-      "name": "huawei-cloud-skill-creator",
-      "category": "devtools",
-      "service": "cli",
-      "services": [
-        "cli"
-      ],
-      "description": "调用此技能来创建、构建、脚手架生成和打包华为云 Agent Skill.Triggers include: \"创建华为云Skill\",\"新建华为云Skill\",\"华为云skill创建器\",\"创建 Skill\",\"新建 Skill\",\"skill 创建器\",\"create skill\",\"build skill\",\"new skill\",\"skill creator\",\"scaffold a Huawei Cloud skill\",\"wrap CLI or OpenAPI into a skill\",\"package cloud operations into a skill\",\"帮我创建华为云Skill\",\"帮我新建一个Skill\",\"封装华为云CLI为Skill\",\"华为云Skill脚手架\".\ntrigger: 创建-Skill, 新建-Skill, skill-创建器, create-skill, build-skill, new-skill, skill-creator, scaffold-skill, huawei-cloud-skill\ntags: [huawei-cloud, skill-creator, skill-development, cli, devops]",
       "triggers": [
         "s include: \"创建华为云Skill",
         "新建华为云Skill",
