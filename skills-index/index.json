@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-13T19:00:00Z",
-  "total_skills": 60,
-  "skills_with_descriptions": 60,
-  "skills_with_triggers": 50,
+  "generated_at": "2026-07-14T19:00:02Z",
+  "total_skills": 61,
+  "skills_with_descriptions": 61,
+  "skills_with_triggers": 51,
   "categories": [
     "ai",
     "bigdata",
@@ -1096,6 +1096,22 @@
         "帮我新建一个Skill",
         "封装华为云CLI为Skill",
         "华为云Skill脚手架\""
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-skill-tester",
+      "category": "devtools",
+      "service": "as",
+      "services": [
+        "as"
+      ],
+      "description": "1. Execute four-phase testing on Huawei Cloud AI Shell Skills: installation verification, basic functionality, combination compatibility, and solution-level testing (purpose)\n  2. Triggered when users need to test Skill quality, verify multi-Skill combination compatibility, detect Agent hallucination, or generate test reports (trigger condition)\n  3. Provides structured test framework, hallucination detection mechanism, With/Without comparison evaluation, and automated test scripts to ensure Skill quality before release (value proposition)\n  4. Orchestrates test flow via npx skills commands, combined with validate-skill.sh, test-skill.sh, and detect-hallucination.sh scripts (usage)\n  5. Requires only SKILL.md as mandatory structure; references/, scripts/, templates/, demo/ are recommended but not required. Test reports distinguish required (PASS/FAIL) from recommended (WARN) checks (prerequisites)\n  Triggers include: \"测试Skill\",\"Skill测试\",\"华为云Skill测试\",\"测试华为云Skill\",\"Skill质量测试\",\"Skill质量验证\",\"Skill兼容性测试\",\"检测Skill幻觉\",\"Skill幻觉检测\",\"test skill\",\"skill test\",\"test skill quality\",\"verify skill compatibility\",\"detect skill hallucination\",\"skill tester\",\"华为云Skill测试器\",\"帮我测试Skill\",\"帮我验证Skill质量\",\"运行Skill四阶段测试\",\"测试skill质量\",\"验证skill兼容性\",\"检测skill幻觉\",\"skill测试\",\"skill质量验证\",\"华为云skill测试\",\"帮我test skill\",\"运行skill四阶段测试\",\"test华为云Skill\",\"verify skill质量\",\"detect skill幻觉\",\"skill tester测试\",\"测试Skill quality\",\"验证Skill compatibility\"\ntags: [huawei-cloud, skill-testing, quality-assurance, hallucination-detection, compatibility, devops]",
+      "triggers": [
+        "ed when users need to test Skill quality",
+        "verify multi-Skill combination compatibility",
+        "detect Agent hallucination",
+        "or generate test reports (trigger condition)"
       ],
       "has_description": true
     },
