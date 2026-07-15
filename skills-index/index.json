@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-14T19:00:02Z",
+  "generated_at": "2026-07-15T19:00:03Z",
   "total_skills": 61,
   "skills_with_descriptions": 61,
   "skills_with_triggers": 51,
@@ -1077,7 +1077,7 @@
       "services": [
         "cli"
       ],
-      "description": "Invoke this skill to create, build, scaffold and package Huawei Cloud (华为云) agent skills.Triggers include: \"创建华为云Skill\",\"新建华为云Skill\",\"华为云skill创建器\",\"创建 Skill\",\"新建 Skill\",\"skill 创建器\",\"create skill\",\"build skill\",\"new skill\",\"skill creator\",\"scaffold a Huawei Cloud skill\",\"wrap CLI or OpenAPI into a skill\",\"package cloud operations into a skill\",\"帮我创建华为云Skill\",\"帮我新建一个Skill\",\"封装华为云CLI为Skill\",\"华为云Skill脚手架\".\ntrigger: create-skill, build-skill, new-skill, skill-creator, 创建-Skill, 新建-Skill, skill-创建器, scaffold-skill, huawei-cloud-skill\ntags: [huawei-cloud, skill-creator, skill-development, cli, devops]",
+      "description": "1. Interactive requirements gathering via Socratic questioning — one question at a time, 4 service dimensions\n  2. Scaffolds complete Skill directory structure with references/, scripts/, templates/, i18n/\n  3. Guides through API research, dataflow diagram generation, and content creation steps\n  4. Validates quality with validate-skill.sh and CLI functional testing (test-cli-commands.sh)\n  5. Supports resource lifecycle testing for Skills with Create/Delete/Update operations\n  Triggers include: \"创建华为云Skill\",\"新建华为云Skill\",\"华为云skill创建器\",\"创建 Skill\",\"新建 Skill\",\"skill 创建器\",\"create skill\",\"build skill\",\"new skill\",\"skill creator\",\"scaffold a Huawei Cloud skill\",\"wrap CLI or OpenAPI into a skill\",\"package cloud operations into a skill\",\"帮我创建华为云Skill\",\"帮我新建一个Skill\",\"封装华为云CLI为Skill\",\"华为云Skill脚手架\",\"帮我创建一个skill\",\"我需要一个skill\".\ntags: [huawei-cloud, skill-creator, skill-development, cli, devops, interactive]",
       "triggers": [
         "s include: \"创建华为云Skill",
         "新建华为云Skill",
@@ -1095,23 +1095,37 @@
         "帮我创建华为云Skill",
         "帮我新建一个Skill",
         "封装华为云CLI为Skill",
-        "华为云Skill脚手架\""
+        "华为云Skill脚手架",
+        "帮我创建一个skill",
+        "我需要一个skill\""
       ],
       "has_description": true
     },
     {
       "name": "huawei-cloud-skill-tester",
       "category": "devtools",
-      "service": "as",
+      "service": "cli",
       "services": [
-        "as"
+        "cli"
       ],
-      "description": "1. Execute four-phase testing on Huawei Cloud AI Shell Skills: installation verification, basic functionality, combination compatibility, and solution-level testing (purpose)\n  2. Triggered when users need to test Skill quality, verify multi-Skill combination compatibility, detect Agent hallucination, or generate test reports (trigger condition)\n  3. Provides structured test framework, hallucination detection mechanism, With/Without comparison evaluation, and automated test scripts to ensure Skill quality before release (value proposition)\n  4. Orchestrates test flow via npx skills commands, combined with validate-skill.sh, test-skill.sh, and detect-hallucination.sh scripts (usage)\n  5. Requires only SKILL.md as mandatory structure; references/, scripts/, templates/, demo/ are recommended but not required. Test reports distinguish required (PASS/FAIL) from recommended (WARN) checks (prerequisites)\n  Triggers include: \"测试Skill\",\"Skill测试\",\"华为云Skill测试\",\"测试华为云Skill\",\"Skill质量测试\",\"Skill质量验证\",\"Skill兼容性测试\",\"检测Skill幻觉\",\"Skill幻觉检测\",\"test skill\",\"skill test\",\"test skill quality\",\"verify skill compatibility\",\"detect skill hallucination\",\"skill tester\",\"华为云Skill测试器\",\"帮我测试Skill\",\"帮我验证Skill质量\",\"运行Skill四阶段测试\",\"测试skill质量\",\"验证skill兼容性\",\"检测skill幻觉\",\"skill测试\",\"skill质量验证\",\"华为云skill测试\",\"帮我test skill\",\"运行skill四阶段测试\",\"test华为云Skill\",\"verify skill质量\",\"detect skill幻觉\",\"skill tester测试\",\"测试Skill quality\",\"验证Skill compatibility\"\ntags: [huawei-cloud, skill-testing, quality-assurance, hallucination-detection, compatibility, devops]",
+      "description": "1. Six-phase: Install (Phase 1), Basic (Phase 2), Combination (Phase 3), Solution (Phase 4), Functional (Phase 5) — with Phase 0 Feature Verification upfront (CLI→SDK→API→prompt user)\n  2. Lifecycle mode (--lifecycle): Create→Poll→Delete with AK/SK prompt, cost confirm, auto cleanup\n  3. SDK/API fallback: non-CLI skills auto-parse Core Commands table, generate SDK/API test cases\n  4. Bash script commands: parse bash scripts/ from Core Commands, substitute {path}, execute\n  5. Interactive questioning test: auto-detect Socratic 4-dimension flow, validate questioning patterns, one-at-a-time, summary table, user confirmation\n  6. Capability detection: read workflow section, detect scaffold/create, test with temp skill from templates\n  7. Phase 0 Feature Verification: read target skill features, list for user confirmation before testing\n  Triggers include: \"测试Skill\",\"Skill测试\",\"华为云Skill测试\",\"功能测试\",\"functional test\",\"生命周期测试\",\"lifecycle test\",\"六步测试\",\"回归测试\",\"帮我测试Skill\",\"test skill quality\",\"检测交互式Skill\",\"interactive test\",\"Socratic测试\",\"socratic test\",\"测试交互式Skill\"\ntags: [huawei-cloud, skill-testing, functional-testing, lifecycle-testing, hallucination-detection, interactive-testing, devops]",
       "triggers": [
-        "ed when users need to test Skill quality",
-        "verify multi-Skill combination compatibility",
-        "detect Agent hallucination",
-        "or generate test reports (trigger condition)"
+        "s include: \"测试Skill",
+        "Skill测试",
+        "华为云Skill测试",
+        "功能测试",
+        "functional test",
+        "生命周期测试",
+        "lifecycle test",
+        "六步测试",
+        "回归测试",
+        "帮我测试Skill",
+        "test skill quality",
+        "检测交互式Skill",
+        "interactive test",
+        "Socratic测试",
+        "socratic test",
+        "测试交互式Skill"
       ],
       "has_description": true
     },
