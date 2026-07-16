@@ -2,9 +2,9 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-15T19:00:03Z",
-  "total_skills": 61,
-  "skills_with_descriptions": 61,
+  "generated_at": "2026-07-16T14:19:03Z",
+  "total_skills": 62,
+  "skills_with_descriptions": 62,
   "skills_with_triggers": 51,
   "categories": [
     "ai",
@@ -510,9 +510,9 @@
       "services": [
         "eip"
       ],
-      "description": "Huawei Cloud EIP (Elastic IP) cost optimization skill using Python SDK v2.\n  Use this skill when the user wants to: (1) list and query EIPs across regions with detailed status, (2) identify idle/unbound EIPs and generate cost optimization reports, (3) set up idle EIP monitoring with webhook/email alerts, (4) generate HTML/JSON cost analysis reports, (5) maintain operation audit logs for compliance. **Read-only analysis only - NO bandwidth adjustment, tag management, or EIP release/deletion**.",
+      "description": "Huawei Cloud EIP (Elastic IP) cost optimization skill using hcloud CLI (KooCLI).\n  1. List and query EIPs across regions with detailed status\n  2. Identify idle/unbound EIPs and generate cost optimization reports\n  3. Set up idle EIP monitoring with webhook/email alerts\n  4. Generate HTML/JSON cost analysis reports\n  5. Maintain operation audit logs for compliance\n  **Read-only analysis only - NO bandwidth adjustment, tag management, or EIP release/deletion**.\n  Triggers include: \"EIP cost optimization\", \"idle EIP analysis\", \"EIP audit\", \"cost report\", \"EIP status query\", \"EIP list\", \"EIP monitoring\", \"EIP alert\", \"cost analysis\", \"idle monitoring\", \"operation audit\", \"EIP 成本优化\", \"闲置 EIP 分析\", \"EIP 审计\", \"成本报告\", \"EIP 状态查询\", \"EIP 查询\", \"EIP 列表\", \"EIP 监控\", \"EIP 告警\", \"成本分析\", \"闲置监控\", \"操作审计\"",
       "triggers": [
-        "user mentions \"EIP cost optimization",
+        "s include: \"EIP cost optimization",
         "idle EIP analysis",
         "EIP audit",
         "cost report",
@@ -803,6 +803,15 @@
         "备案材料",
         "备案授权码"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-install-openjiuwenswarm",
+      "category": "devtools",
+      "service": "openjiuwen",
+      "services": [],
+      "description": ">",
+      "triggers": [],
       "has_description": true
     },
     {
