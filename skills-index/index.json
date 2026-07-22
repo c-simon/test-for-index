@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-22T17:00:01Z",
-  "total_skills": 65,
-  "skills_with_descriptions": 65,
-  "skills_with_triggers": 54,
+  "generated_at": "2026-07-22T18:00:02Z",
+  "total_skills": 67,
+  "skills_with_descriptions": 66,
+  "skills_with_triggers": 55,
   "categories": [
     "ai",
     "bigdata",
@@ -206,36 +206,26 @@
       "has_description": true
     },
     {
-      "name": "huawei-cloud-business-support-query",
+      "name": "huawei-cloud-business-tf-support",
       "category": "bss",
       "service": "billing",
       "services": [
         "billing",
+        "terraform",
         "elb",
         "nat",
         "dcs"
       ],
-      "description": "Queries Huawei Cloud billing and pricing. Covers balances, bills, coupons, cash coupons, stored-value cards, orders, refunds, costs, free resources, resource usage, enterprise accounts, and on-demand/period/ELB/NAT/DCS pricing. No write operations. Use this skill when the user needs to check fees, view bills, estimate prices, review coupon balances, query orders, or get consumption stats. Triggers: 华为云计费, 账单, 余额, 优惠券, 代金券, 储值卡, 订单, 退款, 成本, 资源用量, 询价, 定价, 费用查看, 账单明细, 价格估算, 消费统计, billing, pricing, cost.",
+      "description": "Queries Huawei Cloud billing and fee details only when Terraform needs a billing or pricing inquiry. Covers balances, bills, coupons, cash coupons, stored-value cards, orders, refunds, costs, free resources, resource usage, enterprise accounts, and on-demand/period/ELB/NAT/DCS pricing. No write operations. Use this skill only when Terraform requires billing details, invoice/bill summaries, coupon or balance status, refund/order billing status, or pricing inquiry. Triggers: Terraform 账单查询, Terraform 费用查询, Terraform 价格询价, Terraform 询价, Terraform billing query, Terraform pricing inquiry, Terraform price quote, Terraform bill summary.",
       "triggers": [
-        "s: 华为云计费",
-        "账单",
-        "余额",
-        "优惠券",
-        "代金券",
-        "储值卡",
-        "订单",
-        "退款",
-        "成本",
-        "资源用量",
-        "询价",
-        "定价",
-        "费用查看",
-        "账单明细",
-        "价格估算",
-        "消费统计",
-        "billing",
-        "pricing",
-        "cost"
+        "s: Terraform 账单查询",
+        "Terraform 费用查询",
+        "Terraform 价格询价",
+        "Terraform 询价",
+        "Terraform billing query",
+        "Terraform pricing inquiry",
+        "Terraform price quote",
+        "Terraform bill summary"
       ],
       "has_description": true
     },
@@ -902,6 +892,23 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-kubectl-cce-installer",
+      "category": "container",
+      "service": "cce",
+      "services": [
+        "cce"
+      ],
+      "description": "Install, upgrade, verify, or troubleshoot local kubectl and the Huawei Cloud kubectl-cce plugin. Trigger when a user asks to install kubectl, install kubectl-cce, configure the CCE kubectl plugin, verify kubectl-cce availability, or repair local command prerequisites for CCE Kubernetes resource access.",
+      "triggers": [
+        "when a user asks to install kubectl",
+        "install kubectl-cce",
+        "configure the CCE kubectl plugin",
+        "verify kubectl-cce availability",
+        "or repair local command prerequisites for CCE Kubernetes resource access"
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-maas-tokens-usage",
       "category": "ai",
       "service": "maas",
@@ -958,6 +965,17 @@
         "alert"
       ],
       "has_description": true
+    },
+    {
+      "name": "huawei-cloud-mrs-hive-sql-check",
+      "category": "bigdata",
+      "service": "mrs",
+      "services": [
+        "mrs"
+      ],
+      "description": "",
+      "triggers": [],
+      "has_description": false
     },
     {
       "name": "huawei-cloud-msmodelslim-model-adapt",
