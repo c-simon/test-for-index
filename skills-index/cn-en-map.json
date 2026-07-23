@@ -197,6 +197,8 @@
   "请求次数": "maas",
   "MaaS监控": "maas",
   "华为云MaaS": "maas",
+  "训练任务失败排查": "modelarts",
+  "训练作业异常分析": "modelarts",
   "s: 云监控": "ces",
   "告警": "ces",
   "告警历史": "ces",
