@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-23T02:00:01Z",
-  "total_skills": 67,
-  "skills_with_descriptions": 66,
-  "skills_with_triggers": 55,
+  "generated_at": "2026-07-23T03:00:02Z",
+  "total_skills": 68,
+  "skills_with_descriptions": 67,
+  "skills_with_triggers": 56,
   "categories": [
     "ai",
     "bigdata",
@@ -937,6 +937,25 @@
         "请求次数",
         "MaaS监控",
         "华为云MaaS"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-modelarts-training-diagnosis",
+      "category": "ai",
+      "service": "modelarts",
+      "services": [
+        "modelarts",
+        "cli"
+      ],
+      "description": "Huawei Cloud ModelArts training job fault diagnosis skill. Uses hcloud CLI to call ModelArts training job log/event APIs, analyzes training job failures/timeouts/stuck jobs, locates customer training code issues, and provides diagnosis conclusions with fix suggestions and confidence levels.\n  Scenarios: training job failure (status.phase=Failed), timeout (Timeout), abnormal (Abnormal), stuck jobs.\n  Triggers: training job failure, training job timeout, training job stuck, ModelArts training diagnosis, 训练任务失败排查, 训练作业异常分析.\ntags: [huawei-cloud, modelarts, training, diagnostics, hcloud]",
+      "triggers": [
+        "s: training job failure",
+        "training job timeout",
+        "training job stuck",
+        "ModelArts training diagnosis",
+        "训练任务失败排查",
+        "训练作业异常分析"
       ],
       "has_description": true
     },
