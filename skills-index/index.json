@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-27T17:00:00Z",
-  "total_skills": 69,
-  "skills_with_descriptions": 68,
-  "skills_with_triggers": 57,
+  "generated_at": "2026-07-27T18:00:02Z",
+  "total_skills": 70,
+  "skills_with_descriptions": 69,
+  "skills_with_triggers": 58,
   "categories": [
     "ai",
     "bigdata",
@@ -941,6 +941,34 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-modelarts-notebook-management",
+      "category": "ai",
+      "service": "modelarts",
+      "services": [
+        "modelarts",
+        "cli"
+      ],
+      "description": "Manage Huawei Cloud ModelArts Notebook instances through full lifecycle operations via hcloud CLI. Covers 31 API interfaces across 7 functional domains: instance management (create/list/show/update/delete/start/stop), lease management (show/renew), tag management (show/create/delete), image management (create/list/register/show/delete/sync/group operations), flavor and cluster queries (list flavors/switchable flavors/clusters/features), and dynamic storage management (list/attach/show/detach). All write operations require user confirmation before execution. Triggers include: \"ModelArts notebook\", \"notebook实例\", \"创建notebook\", \"查询notebook\", \"启动notebook\", \"停止notebook\", \"删除notebook\", \"notebook镜像\", \"notebook规格\", \"notebook存储\", \"notebook标签\", \"notebook租期\", \"manage notebook\", \"notebook management\", \"ModelArts notebook management\".\ntags: [huawei-cloud, modelarts, notebook, ai, devtools]",
+      "triggers": [
+        "s include: \"ModelArts notebook",
+        "notebook实例",
+        "创建notebook",
+        "查询notebook",
+        "启动notebook",
+        "停止notebook",
+        "删除notebook",
+        "notebook镜像",
+        "notebook规格",
+        "notebook存储",
+        "notebook标签",
+        "notebook租期",
+        "manage notebook",
+        "notebook management",
+        "ModelArts notebook management\""
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-modelarts-training-diagnosis",
       "category": "ai",
       "service": "modelarts",
@@ -1356,7 +1384,10 @@
       "category": "container",
       "service": "swr",
       "services": [
-        "swr"
+        "swr",
+        "cli",
+        "cce",
+        "cci"
       ],
       "description": "Huawei Cloud SWR (Software Repository for Container) image automation and operations skill using hcloud CLI.\n  Use this skill when the user wants to: (1) configure cross-region image sync (auto or manual), (2) manage SWR triggers for auto-deploy to CCE/CCI, (3) query available sync target regions, (4) check sync job status, (5) create/update/delete trigger configurations.",
       "triggers": [
@@ -1408,7 +1439,8 @@
       "category": "container",
       "service": "swr",
       "services": [
-        "swr"
+        "swr",
+        "cli"
       ],
       "description": "Huawei Cloud SWR (Software Repository for Container) image lifecycle management skill using hcloud CLI.\n  Use this skill when the user wants to: (1) manage SWR namespaces (organizations) - create/query/delete, (2) manage image repositories - create/query/update/delete, (3) manage image tags/versions - query/create/delete, (4) obtain docker login credentials for SWR, (5) check SWR quotas and usage limits.",
       "triggers": [
