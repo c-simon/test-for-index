@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-07-29T17:00:00Z",
-  "total_skills": 72,
-  "skills_with_descriptions": 71,
-  "skills_with_triggers": 60,
+  "generated_at": "2026-07-29T18:00:02Z",
+  "total_skills": 74,
+  "skills_with_descriptions": 73,
+  "skills_with_triggers": 61,
   "categories": [
     "ai",
     "bigdata",
@@ -833,6 +833,15 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-hetu-sql-check",
+      "category": "bigdata",
+      "service": "mrs",
+      "services": [],
+      "description": "Comprehensive SQL statement checking for HetuEngine, supporting two check modes:\n  1. Syntax Check - Keyword validation, statement structure verification, clause completeness, HetuEngine syntax compatibility based on Presto/Trino + Hive grammar definitions\n  2. Specification Check - Object design standards, data operation standards, naming conventions based on HetuEngine development best practices\n  Built-in custom HetuEngine SQL tokenizer (400+ keywords) and recursive descent parser supporting 30+ statement types.\n  Applicable when users need SQL quality review, syntax validation, or specification compliance checking for HetuEngine.\n  触发词：\"HetuEngine SQL检查\"、\"Hetu SQL规范\"、\"Hetu SQL审计\"、\"Hetu SQL语法\"、\"Hetu SQL优化\"、\"检查Hetu SQL\"、\"HetuEngine SQL review\"",
+      "triggers": [],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-iam-query",
       "category": "security",
       "service": "iam",
@@ -1319,6 +1328,21 @@
         "YOLO训练",
         "GPU训练",
         "视觉模型训练"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-skill-audit",
+      "category": "devtools",
+      "service": "common",
+      "services": [],
+      "description": "Audit Huawei Cloud skills for quality, security, and compliance using a five-check pipeline:\n  skillcheck (agentskills.io spec), markdownlint-cli2 (style), skillspector (AI security),\n  hwcloud-spec (Huawei Cloud SKILL.md spec), and gitleaks (credential leak).\n  Generates structured reports with issue details and fix strategies.\n  Triggers include: \"审计技能\",\"技能审计\",\"检查技能质量\",\"扫描技能问题\",\"技能安全审计\",\n  \"audit skill\",\"check skill quality\",\"scan skills for issues\",\"skill audit\",\n  \"华为云技能审计\",\"技能合规检查\",\"skill gate\",\"质量门禁\",\"技能检查\",\n  \"audit huawei cloud skill\",\"verify skill compliance\",\"技能质量检查\",\"跑审计\",\"安全扫描\".\ntags: [huawei-cloud, audit, security, quality, compliance, devops]",
+      "triggers": [
+        "s include: \"审计技能",
+        "技能审计",
+        "检查技能质量",
+        "扫描技能问题",
+        "技能安全审计"
       ],
       "has_description": true
     },
