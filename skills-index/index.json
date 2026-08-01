@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-01T17:00:00Z",
-  "total_skills": 74,
-  "skills_with_descriptions": 73,
-  "skills_with_triggers": 61,
+  "generated_at": "2026-08-01T18:00:02Z",
+  "total_skills": 77,
+  "skills_with_descriptions": 76,
+  "skills_with_triggers": 63,
   "categories": [
     "ai",
     "bigdata",
@@ -444,6 +444,15 @@
         "image",
         "scaling"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-doris-sql-check",
+      "category": "bigdata",
+      "service": "mrs",
+      "services": [],
+      "description": "Comprehensive SQL statement checking for Apache Doris (based on Doris 3.1.4 Nereids ANTLR4 grammar),\n  supporting two check modes:\n  1. Syntax Check - Keyword validation, statement structure verification, clause completeness,\n     Doris-specific syntax compatibility (DISTRIBUTED BY, PARTITION BY, ENGINE,\n     DUPLICATE/AGGREGATE/UNIQUE KEY, INSERT OVERWRITE, LOAD, EXPORT, MTMV, BACKUP/RESTORE etc.)\n  2. Specification Check - Object design standards, data operation standards, naming conventions\n     based on Apache Doris development best practices.\n  Built-in custom Doris SQL tokenizer (504 keywords from DorisLexer.g4) and recursive descent parser\n  supporting 100+ Doris statement types.\n  Applicable when users need SQL quality review, syntax validation, or specification compliance checking\n  for Apache Doris SQL (versions 2.1.x / 3.0.x / 3.1.x / 4.x).\n  触发词：\"Doris SQL检查\"、\"Doris SQL规范\"、\"Doris SQL审计\"、\"Doris SQL语法\"、\"检查Doris SQL\"、\"Doris SQL review\"\ntags: [apache-doris, doris, sql, check, lint, nereids]",
+      "triggers": [],
       "has_description": true
     },
     {
@@ -1072,6 +1081,21 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-mrs-clickhouse-sql-check",
+      "category": "bigdata",
+      "service": "mrs",
+      "services": [
+        "mrs"
+      ],
+      "description": "Comprehensive SQL statement checking for ClickHouse, supporting multiple kernel\n  versions (24.8, 23.3, 22.3) and two check modes:\n  1. Syntax Check - Keyword validation, statement structure verification, clause completeness,\n     ClickHouse-specific syntax compatibility (SAMPLE BY, FINAL, ARRAY JOIN, PREWHERE,\n     GLOBAL JOIN, ASOF JOIN, ENGINE, PARTITION BY, TTL, etc.) based on kernel source grammar\n  2. Specification Check - Development specification rules (SPEC001-SPEC035) from\n     MRS Development Specification v01, covering DDL table design, DDL operations, materialized views,\n     DML data loading, query standards, and data modification standards\n  Built-in custom ClickHouse SQL tokenizer (version-specific keywords from kernel source) and statement recognizer supporting 47 statement types (DML/DDL/DCL/TCL/Utility). Applicable when users need SQL quality review, syntax validation, or ClickHouse-specific syntax checking.",
+      "triggers": [
+        "Clickhouse SQL check\"、\"CK SQL check\"、 \"Clickhouse SQL 校验\"、 \"Clickhouse SQL 检查\"、 \"Clickhouse SQL specification",
+        "Clickhouse SQL 规范检查\"、\"Clickhouse SQL optimization",
+        "Clickhouse SQL 优化\"、\"检查 Clickhouse SQL"
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-mrs-hive-sql-check",
       "category": "bigdata",
       "service": "mrs",
@@ -1081,6 +1105,24 @@
       "description": "",
       "triggers": [],
       "has_description": false
+    },
+    {
+      "name": "huawei-cloud-mrs-spark-sql-check",
+      "category": "bigdata",
+      "service": "mrs",
+      "services": [
+        "mrs"
+      ],
+      "description": "Huawei Cloud MRS Spark SQL specification checking skill. Performs comprehensive SQL statement checking for MRS Spark, including syntax validation, specification compliance, and performance risk detection.\n  triggers: \"Spark SQL review\", \"check Spark SQL\", \"检查Spark SQL\", \"Spark SQL检查\", \"Spark SQL规范\", \"Spark SQL语法\".\ntags: [huawei-cloud, mrs, \"spark sql\", check]",
+      "triggers": [
+        "s: \"Spark SQL review",
+        "check Spark SQL",
+        "检查Spark SQL",
+        "Spark SQL检查",
+        "Spark SQL规范",
+        "Spark SQL语法\""
+      ],
+      "has_description": true
     },
     {
       "name": "huawei-cloud-msmodelslim-model-adapt",
