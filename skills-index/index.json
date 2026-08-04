@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-04T17:00:00Z",
+  "generated_at": "2026-08-04T18:00:02Z",
   "total_skills": 77,
   "skills_with_descriptions": 76,
   "skills_with_triggers": 63,
@@ -260,7 +260,7 @@
       "services": [
         "cce"
       ],
-      "description": "Huawei Cloud CCE (Cloud Container Engine) cluster lifecycle management skill using Python SDK v3.\n  Use this skill when the user wants to: (1) create, delete, hibernate, or awake CCE clusters, (2) list clusters and query cluster/node/nodepool/addon information, (3) manage node pools (create, delete, resize), (4) manage nodes (create, delete, cordon, uncordon, drain), (5) manage addons (install, uninstall, update), (6) bind/unbind cluster EIP for public access, (7) get cluster kubeconfig.",
+      "description": "Huawei Cloud CCE (Cloud Container Engine) cluster lifecycle management skill using hcloud CLI (KooCLI) for Huawei Cloud API calls and kubectl cce plugin for Kubernetes node operations (cordon/uncordon/drain/status).\n  Use this skill when the user wants to: (1) create, delete, hibernate, or awake CCE clusters, (2) list clusters and query cluster/node/nodepool/addon information, (3) manage node pools (create, delete, resize), (4) manage nodes (create, delete, cordon, uncordon, drain), (5) manage addons (install, uninstall, update), (6) bind/unbind cluster EIP for public access, (7) get cluster kubeconfig.",
       "triggers": [
         "user mentions \"CCE cluster",
         "create cluster",
@@ -1490,7 +1490,9 @@
         "instance endpoint",
         "instance domain",
         "企业仓库",
-        "实例管理"
+        "实例管理",
+        "同步目标仓库",
+        "sync target"
       ],
       "has_description": true
     },
@@ -1638,7 +1640,7 @@
       "services": [
         "ucs"
       ],
-      "description": "Huawei Cloud UCS (Universal Cloud Service) policy governance and compliance management skill using hcloud CLI.\n  Use this skill when the user wants to: (1) manage UCS policy instances - create/update/query/delete, (2) manage UCS policy definitions - query/list, (3) enable/disable policies on clusters or fleet groups, (4) check policy enforcement job status, (5) audit fleet compliance and review policy enforcement status.",
+      "description": "Huawei Cloud UCS (Ubiquitous Cloud Native Service) policy governance and compliance management skill using hcloud CLI.\n  Use this skill when the user wants to: (1) manage UCS policy instances - create/update/query/delete, (2) manage UCS policy definitions - query/list, (3) enable/disable policies on clusters or fleet groups, (4) check policy enforcement job status, (5) audit fleet compliance and review policy enforcement status.",
       "triggers": [
         "user mentions \"UCS policy",
         "UCS 策略",
