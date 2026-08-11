@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-11T16:00:00Z",
-  "total_skills": 77,
-  "skills_with_descriptions": 76,
-  "skills_with_triggers": 63,
+  "generated_at": "2026-08-11T17:00:02Z",
+  "total_skills": 79,
+  "skills_with_descriptions": 78,
+  "skills_with_triggers": 65,
   "categories": [
     "ai",
     "bigdata",
@@ -13,6 +13,7 @@
     "cdi",
     "computing",
     "container",
+    "content&edge",
     "devtools",
     "monitoring",
     "network",
@@ -379,6 +380,33 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-cdn-traffic-anomaly-analysis",
+      "category": "content&edge",
+      "service": "cli",
+      "services": [
+        "cli",
+        "billing"
+      ],
+      "description": "Analyze CDN domain traffic anomalies using hcloud CLI. Query billing mode and traffic/bandwidth metrics for specified domains, compare against 3-month baseline and absolute thresholds to identify traffic theft or abuse.\n  Use this skill when the user wants to: (1) analyze CDN domain traffic anomalies, (2) check if a domain has traffic theft or abuse, (3) query CDN billing mode and traffic/bandwidth metrics, (4) compare current traffic against historical baseline.\n  Triggers include: CDN流量异常, 流量异常分析, 域名流量分析, 流量盗刷, 带宽异常, 95带宽异常, 流量突增, 流量对比, 基准分析, traffic anomaly, bandwidth anomaly, CDN traffic analysis, traffic theft detection, baseline comparison\ntags:\n  - cdn\n  - traffic\n  - anomaly\n  - bandwidth\n  - hcloud\n  - baseline",
+      "triggers": [
+        "s include: CDN流量异常",
+        "流量异常分析",
+        "域名流量分析",
+        "流量盗刷",
+        "带宽异常",
+        "95带宽异常",
+        "流量突增",
+        "流量对比",
+        "基准分析",
+        "traffic anomaly",
+        "bandwidth anomaly",
+        "CDN traffic analysis",
+        "traffic theft detection",
+        "baseline comparison"
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-ces-ecs-monitoring",
       "category": "monitoring",
       "service": "ecs",
@@ -443,6 +471,32 @@
         "instance",
         "image",
         "scaling"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-devbridge-tunnel",
+      "category": "devtools",
+      "service": "cli",
+      "services": [
+        "cli",
+        "iam"
+      ],
+      "description": "Create and manage DevBridge development tunnels on Huawei Cloud to securely expose local development services to remote devices.\n  Based on DevBridge CLI v0.1.12+ and Huawei Cloud IAM authentication.\n  Use this skill when the user wants to: (1) install and configure the DevBridge CLI, (2) create/list/update/delete tunnels, (3) manage tunnel ports and protocols, (4) host local services through tunnels, (5) connect to remote tunnels from another device, (6) manage authentication and tokens.",
+      "triggers": [
+        "user mentions \"DevBridge",
+        "开发隧道",
+        "开发者隧道",
+        "dev tunnel",
+        "tunnel",
+        "host local service",
+        "expose local port",
+        "connect tunnel",
+        "托管本地服务",
+        "隧道端口",
+        "devbridge",
+        "DevSpace",
+        "开发空间隧道"
       ],
       "has_description": true
     },
