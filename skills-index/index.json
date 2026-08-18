@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-18T01:00:00Z",
-  "total_skills": 79,
-  "skills_with_descriptions": 78,
-  "skills_with_triggers": 65,
+  "generated_at": "2026-08-18T02:00:03Z",
+  "total_skills": 81,
+  "skills_with_descriptions": 80,
+  "skills_with_triggers": 67,
   "categories": [
     "ai",
     "bigdata",
@@ -1344,6 +1344,50 @@
         "custom domain CNAME",
         "Huawei Cloud DNS",
         "setBucketWebsite. 中文触发词包括：OBS 静态网站托管、网站托管、自定义域名解析。"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-openviking-agent-integration",
+      "category": "devtools",
+      "service": "cli",
+      "services": [
+        "cli"
+      ],
+      "description": "Integrate and unbind OpenViking long-term memory with coding agents running in bwrap sandboxes. Supports 7 agents (CodeArts CLI, OpenCode, OpenClaw, Hermes, JiuwenSwarm, KimiCode, DeepSeek Harness) via their native mechanism — MCP or HTTP memory provider. Both integration and unbinding require explicit user authorization.\n  Use this skill when the user wants to: (1) integrate OpenViking memory into a coding agent, (2) unbind OpenViking from a coding agent, (3) check the integration status of all agents, (4) verify the OpenViking MCP endpoint, (5) rebuild the OpenClaw sandbox to apply template changes.\n  Trigger words: \"OpenViking integration\", \"agent memory binding\", \"MCP setup\", \"OpenViking MCP\", \"integrate OpenViking\", \"unbind OpenViking\", \"记忆集成\", \"记忆解绑\", \"OpenViking 集成\", \"OpenViking 解绑\", \"agent long-term memory\", \"context database\".\ntags:\n  - openviking\n  - mcp\n  - agent-integration\n  - memory\n  - binding\n  - unbinding\n  - codearts\n  - opencode\n  - openclaw\n  - hermes\n  - jiuwenswarm\n  - kimicode\n  - deepseek-harness\n  - dsh\n  - mcp-client\nmetadata:\n  version: 1.0.0\n  license: MIT\n  category: devtools",
+      "triggers": [
+        "words: \"OpenViking integration",
+        "agent memory binding",
+        "MCP setup",
+        "OpenViking MCP",
+        "integrate OpenViking",
+        "unbind OpenViking",
+        "记忆集成",
+        "记忆解绑",
+        "OpenViking 集成",
+        "OpenViking 解绑",
+        "agent long-term memory",
+        "context database\""
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-openviking-embedding-switch",
+      "category": "devtools",
+      "service": "extensions",
+      "services": [],
+      "description": "Switch OpenViking's embedding model to a local llama-server (or any OpenAI-compatible embedding endpoint) running inside a bwrap sandbox managed by job-env-manager. Handles the full lifecycle: detect current config, validate the target embedding endpoint, modify ov.conf, delete incompatible vectordb index when dimension changes, restart the openviking-server process in the sandbox, and verify the new collection dimension.\n  Use this skill when the user wants to: (1) switch the OpenViking embedding model, (2) change the embedding dimension, (3) fix EmbeddingRebuildRequiredError after a dimension mismatch, (4) rebuild the vectordb index after an embedding model change, (5) use a local llama-server for OpenViking embeddings.\n  Trigger words: \"切换OpenViking embedding\", \"OpenViking embedding模型\", \"OpenViking向量化模型\", \"openviking embedding switch\", \"change openviking embedding model\", \"配置openviking embedding\", \"openviking llama embedding\", \"bge embedding openviking\", \"切换向量化模型\", \"OpenViking模型切换\".\ntags:\n  - openviking\n  - embedding\n  - llama\n  - vectordb\n  - job-env-manager",
+      "triggers": [
+        "words: \"切换OpenViking embedding",
+        "OpenViking embedding模型",
+        "OpenViking向量化模型",
+        "openviking embedding switch",
+        "change openviking embedding model",
+        "配置openviking embedding",
+        "openviking llama embedding",
+        "bge embedding openviking",
+        "切换向量化模型",
+        "OpenViking模型切换\""
       ],
       "has_description": true
     },
