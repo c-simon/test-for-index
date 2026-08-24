@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-24T06:00:01Z",
+  "generated_at": "2026-08-24T07:00:02Z",
   "total_skills": 83,
   "skills_with_descriptions": 82,
   "skills_with_triggers": 69,
@@ -555,6 +555,29 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-dws-dymem-diag",
+      "category": "bigdata",
+      "service": "dws",
+      "services": [
+        "dws"
+      ],
+      "description": "DWS cluster memory high root cause diagnosis skill, based on KooCLI v3.2.0+ and DWS Autopilot MCP Server.\n  Automatically collects memory metrics, analyzes root causes (customer-side / system-side), and outputs a standardized diagnosis report.\n  Applicable to DWS cluster memory usage too high, memory alarms, OOM scenarios.\n  Trigger words: \"内存高\", \"内存告警\", \"内存诊断\", \"内存使用率过高\", \"内存不足\", \"OOM\", \"内存溢出\", \"动态内存使用率超阈值\", \"high memory\", \"memory alarm\", \"memory diagnosis\"\ntags: [huawei-cloud, dws, memory, diagnostics, autopilot]",
+      "triggers": [
+        "words: \"内存高",
+        "内存告警",
+        "内存诊断",
+        "内存使用率过高",
+        "内存不足",
+        "OOM",
+        "内存溢出",
+        "动态内存使用率超阈值",
+        "high memory",
+        "memory alarm",
+        "memory diagnosis"
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-dws-io-diag",
       "category": "bigdata",
       "service": "dws",
@@ -577,29 +600,6 @@
         "high I/O",
         "I/O alarm",
         "I/O diagnosis"
-      ],
-      "has_description": true
-    },
-    {
-      "name": "huawei-cloud-dws-mem-diag",
-      "category": "bigdata",
-      "service": "dws",
-      "services": [
-        "dws"
-      ],
-      "description": "DWS cluster memory high root cause diagnosis skill, based on KooCLI v3.2.0+ and DWS Autopilot MCP Server.\n  Automatically collects memory metrics, analyzes root causes (customer-side / system-side), and outputs a standardized diagnosis report.\n  Applicable to DWS cluster memory usage too high, memory alarms, OOM scenarios.\n  Trigger words: \"内存高\", \"内存告警\", \"内存诊断\", \"内存使用率过高\", \"内存不足\", \"OOM\", \"内存溢出\", \"动态内存使用率超阈值\", \"high memory\", \"memory alarm\", \"memory diagnosis\"\ntags: [huawei-cloud, dws, memory, diagnostics, autopilot]",
-      "triggers": [
-        "words: \"内存高",
-        "内存告警",
-        "内存诊断",
-        "内存使用率过高",
-        "内存不足",
-        "OOM",
-        "内存溢出",
-        "动态内存使用率超阈值",
-        "high memory",
-        "memory alarm",
-        "memory diagnosis"
       ],
       "has_description": true
     },
@@ -1400,7 +1400,7 @@
       "services": [
         "cli"
       ],
-      "description": "Integrate and unbind OpenViking long-term memory with coding agents running in bwrap sandboxes. Supports 7 agents (CodeArts CLI, OpenCode, OpenClaw, Hermes, JiuwenSwarm, KimiCode, DeepSeek Harness) via their native mechanism — MCP or HTTP memory provider. Both integration and unbinding require explicit user authorization.\n  Use this skill when the user wants to: (1) integrate OpenViking memory into a coding agent, (2) unbind OpenViking from a coding agent, (3) check the integration status of all agents, (4) verify the OpenViking MCP endpoint, (5) rebuild the OpenClaw sandbox to apply template changes.\n  Trigger words: \"OpenViking integration\", \"agent memory binding\", \"MCP setup\", \"OpenViking MCP\", \"integrate OpenViking\", \"unbind OpenViking\", \"记忆集成\", \"记忆解绑\", \"OpenViking 集成\", \"OpenViking 解绑\", \"agent long-term memory\", \"context database\".\ntags:\n  - openviking\n  - mcp\n  - agent-integration\n  - memory\n  - binding\n  - unbinding\n  - codearts\n  - opencode\n  - openclaw\n  - hermes\n  - jiuwenswarm\n  - kimicode\n  - deepseek-harness\n  - dsh\n  - mcp-client\nmetadata:\n  version: 1.0.0\n  license: MIT\n  category: devtools",
+      "description": "Integrate and unbind OpenViking long-term memory with coding agents. Supports 8 agents (CodeArts CLI, OpenCode, OpenClaw, Hermes, JiuwenSwarm, KimiCode, DeepSeek Harness, Prime Agent) via their native mechanism — MCP, HTTP memory provider, TypeScript extension hooks, or settings.json config. Both integration and unbinding require explicit user authorization.\n  Use this skill when the user wants to: (1) integrate OpenViking memory into a coding agent, (2) unbind OpenViking from a coding agent, (3) check the integration status of all agents, (4) verify the OpenViking MCP endpoint, (5) rebuild the OpenClaw sandbox to apply template changes.\n  Trigger words: \"OpenViking integration\", \"agent memory binding\", \"MCP setup\", \"OpenViking MCP\", \"integrate OpenViking\", \"unbind OpenViking\", \"记忆集成\", \"记忆解绑\", \"OpenViking 集成\", \"OpenViking 解绑\", \"agent long-term memory\", \"context database\".\ntags:\n  - openviking\n  - database\n  - agent\nmetadata:\n  version: 1.2.0\n  license: MIT\n  category: devtools",
       "triggers": [
         "words: \"OpenViking integration",
         "agent memory binding",
