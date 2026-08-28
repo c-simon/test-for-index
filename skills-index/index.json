@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-28T08:00:00Z",
+  "generated_at": "2026-08-28T11:00:03Z",
   "total_skills": 84,
   "skills_with_descriptions": 83,
   "skills_with_triggers": 70,
@@ -617,24 +617,16 @@
     {
       "name": "huawei-cloud-ecs-alert",
       "category": "monitoring",
-      "service": "ecs",
+      "service": "ces",
       "services": [
+        "ces",
         "ecs",
-        "ces"
+        "cli",
+        "smn"
       ],
-      "description": "Automate batch creation and management of Huawei Cloud CES alarm rules for ECS instances using hcloud CLI v7.2.2+.\n  Use this skill to: (1) batch create alarms with templates (web/database), (2) update SMN notifications, (3) query ECS metrics and alarm lists.",
+      "description": "Automate batch creation and management of Huawei Cloud CES alarm rules for ECS instances using hcloud CLI v7.2.2+.\n  Use this skill to: (1) batch create alarms with templates (web/database), (2) update SMN notifications, (3) query ECS metrics and alarm lists.\ntriggers:\n  - \"ECS alert\"\n  - \"create alert\"\n  - \"list alarms\"\n  - \"CPU alert\"\n  - \"memory alert\"\n  - \"ECS monitoring\"\n  - \"监控告警\"\n  - \"创建告警\"\n  - \"ECS 监控\"\n  - \"告警规则\"\n  - \"查询告警\"\ntags: [huawei-cloud, ecs, ces, alert, monitoring]\nversion: 1.0.2",
       "triggers": [
-        "ECS alert",
-        "create alert",
-        "list alarms",
-        "CPU alert",
-        "memory alert",
-        "ECS monitoring",
-        "监控告警",
-        "创建告警",
-        "ECS 监控",
-        "告警规则",
-        "查询告警"
+        "s:"
       ],
       "has_description": true
     },
