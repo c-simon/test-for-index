@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-08-31T07:00:00Z",
-  "total_skills": 84,
-  "skills_with_descriptions": 83,
-  "skills_with_triggers": 70,
+  "generated_at": "2026-08-31T08:00:05Z",
+  "total_skills": 85,
+  "skills_with_descriptions": 84,
+  "skills_with_triggers": 71,
   "categories": [
     "ai",
     "bigdata",
@@ -627,6 +627,31 @@
       "description": "Automate batch creation and management of Huawei Cloud CES alarm rules for ECS instances using hcloud CLI v7.2.2+.\n  Use this skill to: (1) batch create alarms with templates (web/database), (2) update SMN notifications, (3) query ECS metrics and alarm lists.\ntriggers:\n  - \"ECS alert\"\n  - \"create alert\"\n  - \"list alarms\"\n  - \"CPU alert\"\n  - \"memory alert\"\n  - \"ECS monitoring\"\n  - \"监控告警\"\n  - \"创建告警\"\n  - \"ECS 监控\"\n  - \"告警规则\"\n  - \"查询告警\"\ntags: [huawei-cloud, ecs, ces, alert, monitoring]\nversion: 1.0.2",
       "triggers": [
         "s:"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-ecs-dsh-deploy",
+      "category": "computing",
+      "service": "billing",
+      "services": [
+        "billing"
+      ],
+      "description": "Huawei Cloud Flexus X Instance Deployment - DeepSeek Harness (dsh). ⚠️ Deployment involves actual charges, must confirm region/flavor/billing mode with user before execution.\n  Triggers include: \"部署DeepSeek Harness\", \"部署dsh\", \"部署DeepSeek智能体\", \"创建AI智能体服务器\", \"Deploy DeepSeek Harness\", \"Deploy dsh\", \"Create AI Agent Server\", \"Deploy AI Harness\", \"DeepSeek Harness\", \"dsh\", \"Flexus X\", \"ECS部署\", \"AI智能体\".\ntriggers:\n  - 部署DeepSeek Harness\n  - 部署dsh\n  - 部署DeepSeek智能体\n  - 创建AI智能体服务器\n  - Deploy DeepSeek Harness\n  - Deploy dsh\n  - Create AI Agent Server\n  - Deploy AI Harness\n  - DeepSeek Harness\n  - dsh\n  - Flexus X\n  - ECS部署\n  - AI智能体\ntags: [DeepSeek Harness, dsh, AI Agent, Flexus Cloud Server X Instance, Deployment]",
+      "triggers": [
+        "s include: \"部署DeepSeek Harness",
+        "部署dsh",
+        "部署DeepSeek智能体",
+        "创建AI智能体服务器",
+        "Deploy DeepSeek Harness",
+        "Deploy dsh",
+        "Create AI Agent Server",
+        "Deploy AI Harness",
+        "DeepSeek Harness",
+        "dsh",
+        "Flexus X",
+        "ECS部署",
+        "AI智能体\""
       ],
       "has_description": true
     },
