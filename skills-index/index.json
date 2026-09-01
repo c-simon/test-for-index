@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-01T08:00:01Z",
+  "generated_at": "2026-09-01T09:00:02Z",
   "total_skills": 85,
   "skills_with_descriptions": 84,
   "skills_with_triggers": 71,
@@ -1068,8 +1068,7 @@
       "category": "ai",
       "service": "maas",
       "services": [
-        "maas",
-        "as"
+        "maas"
       ],
       "description": "Query Huawei Cloud MaaS (Model as a Service) tokens usage statistics, including total tokens, prompt tokens, completion tokens, total requests, and total errors. Supports preset service, my service, and custom endpoint with time range queries (last 7/14/30 days or custom). Data source is MaaS ShowStatistics API, consistent with console.\n  Use this skill when the user wants to: (1) query MaaS token consumption statistics, (2) check MaaS service request counts and error rates, (3) analyze token usage for preset service or my service, (4) monitor MaaS usage over a specific time period.",
       "triggers": [
