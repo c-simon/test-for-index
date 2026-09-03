@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-03T09:00:00Z",
-  "total_skills": 87,
-  "skills_with_descriptions": 86,
-  "skills_with_triggers": 73,
+  "generated_at": "2026-09-03T10:00:04Z",
+  "total_skills": 88,
+  "skills_with_descriptions": 87,
+  "skills_with_triggers": 74,
   "categories": [
     "agentorchard",
     "ai",
@@ -1577,6 +1577,24 @@
         "parameter tuning",
         "RDS ops",
         "database diagnose\""
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-sac-dify",
+      "category": "solution",
+      "service": "ecs",
+      "services": [
+        "ecs",
+        "terraform",
+        "sac"
+      ],
+      "description": "\"Deploy Dify - an open-source LLM app development platform on Huawei Cloud with ECS via Terraform. Use when the user wants to deploy Dify (or an LLM application development platform) on Huawei Cloud and directly implement it with a Terraform/SAC template.",
+      "triggers": [
+        "Dify 一键部署",
+        "Dify development",
+        "Agentic workflow",
+        "build AI App"
       ],
       "has_description": true
     },
