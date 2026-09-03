@@ -2,9 +2,9 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-03T12:00:03Z",
-  "total_skills": 94,
-  "skills_with_descriptions": 93,
+  "generated_at": "2026-09-03T13:00:05Z",
+  "total_skills": 98,
+  "skills_with_descriptions": 97,
   "skills_with_triggers": 80,
   "categories": [
     "agentorchard",
@@ -827,6 +827,17 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-ecs-query",
+      "category": "monitoring",
+      "service": "ecs",
+      "services": [
+        "ecs"
+      ],
+      "description": "查询华为云ECS弹性云服务器信息。仅用于查询，不包含创建/删除/规格变更等写操作。当用户需要查看华为云ECS实例列表、实例详情、实例状态时使用。支持AK/SK和Token两种认证方式，支持表格和JSON两种输出格式，支持多区域查询。触发场景：用户要求\"查询云服务器列表\"、\"查看ECS实例详情\"、\"ECS运行状态\"、\"列出ECS\"、\"查看服务器状态\"，或请求中带 update/修改/创建/删除 ECS 以外的只读查询意图时（如查 flavor、可用区、镜像等 ECS 属性）使用。写操作请求（创建、删除、规格变更、开机/关机）请使用其他技能。",
+      "triggers": [],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-ecs-sqlbot-deploy",
       "category": "computing",
       "service": "flexus-x",
@@ -1097,6 +1108,15 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-hss-query",
+      "category": "security",
+      "service": "hss",
+      "services": [],
+      "description": ">-",
+      "triggers": [],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-iam-query",
       "category": "security",
       "service": "iam",
@@ -1220,6 +1240,24 @@
         "鲲鹏云服务器",
         "Kunpeng ECS"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-lts-log-inspector",
+      "category": "monitoring",
+      "service": "lts",
+      "services": [],
+      "description": ">",
+      "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-lts-manage",
+      "category": "monitoring",
+      "service": "lts",
+      "services": [],
+      "description": ">",
+      "triggers": [],
       "has_description": true
     },
     {
