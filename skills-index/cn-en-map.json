@@ -342,6 +342,7 @@
   "数据库备份": "rds",
   "数据恢复": "rds",
   "RDS智能服务": "rds",
+  "Dify 一键部署": "ecs",
   "部署NewAPI": "terraform",
   "NewAPI网关": "terraform",
   "LLM网关": "terraform",
