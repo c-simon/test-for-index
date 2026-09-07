@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-07T06:00:01Z",
-  "total_skills": 98,
-  "skills_with_descriptions": 97,
-  "skills_with_triggers": 80,
+  "generated_at": "2026-09-07T07:00:02Z",
+  "total_skills": 99,
+  "skills_with_descriptions": 98,
+  "skills_with_triggers": 81,
   "categories": [
     "agentorchard",
     "ai",
@@ -1909,6 +1909,35 @@
       "triggers": [
         "-conflict detection",
         "and consolidated reporting"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-solution-ops",
+      "category": "solution",
+      "service": "terraform",
+      "services": [
+        "terraform",
+        "maas"
+      ],
+      "description": "A skill for Huawei Cloud solution operations.\n  It helps agents inspect, plan, operate, troubleshoot, and verify Huawei Cloud resources through hcloud, Huawei Cloud SDKs, Terraform, and MaaS capabilities.\n  Use this when users want to query or change Huawei Cloud resources, troubleshoot authentication and API issues, assess environments, plan infrastructure, manage costs, or verify operational outcomes.",
+      "triggers": [
+        "华为云运维",
+        "华为云资源管理",
+        "华为云资源查询",
+        "华为云环境评估",
+        "华为云故障排查",
+        "上云",
+        "用云",
+        "管云",
+        "huawei cloud operations",
+        "huawei cloud assessment",
+        "hcloud",
+        "KooCLI",
+        "Huawei Cloud SDK",
+        "Terraform",
+        "IaC",
+        "MaaS"
       ],
       "has_description": true
     },
