@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-08T01:00:01Z",
+  "generated_at": "2026-09-08T02:00:02Z",
   "total_skills": 99,
   "skills_with_descriptions": 98,
   "skills_with_triggers": 81,
@@ -899,7 +899,7 @@
       "services": [
         "obs"
       ],
-      "description": "Invoke this skill to search, discover, browse, find and install any Huawei Cloud (华为云) agent skill.Triggers include: \"华为云\",\"华为云有什么skill\",\"华为云相关skill\",\"华为云agent skill 市场\",\"华为云skill类目\",\"explore Huawei Cloud skills\",\"show Huawei Cloud skill categories\",\"does a Huawei Cloud skill exist for...\",\"which Huawei Cloud skills exist\",\"搜索华为云技能\",\"有没有管理ECS/OBS/RDS的skill\",\"帮我找 XX 华为云skill\",\"介绍 XX Skill 内容\",\"华为云 XX Skill 具体做什么\",\"安装华为云Skill\".",
+      "description": "Invoke this skill to search, list, query, discover, browse, find and install any Huawei Cloud (华为云) agent skill. Triggers include: \"华为云\", \"华为云有什么skill\", \"华为云相关skill\", \"华为云agent skill 市场\", \"华为云skill类目\", \"explore Huawei Cloud skills\", \"show Huawei Cloud skill categories\", \"does a Huawei Cloud skill exist for...\", \"which Huawei Cloud skills exist\", \"搜索华为云技能\", \"查询华为云skill列表\", \"有没有管理ECS/OBS/RDS的skill\", \"帮我找 XX 华为云skill\", \"介绍 XX Skill 内容\", \"华为云 XX Skill 具体做什么\", \"安装华为云Skill\".",
       "triggers": [
         "s include: \"华为云",
         "华为云有什么skill",
@@ -911,6 +911,7 @@
         "does a Huawei Cloud skill exist for",
         "which Huawei Cloud skills exist",
         "搜索华为云技能",
+        "查询华为云skill列表",
         "有没有管理ECS/OBS/RDS的skill",
         "帮我找 XX 华为云skill",
         "介绍 XX Skill 内容",
