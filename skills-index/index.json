@@ -2,9 +2,9 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-08T13:00:00Z",
-  "total_skills": 99,
-  "skills_with_descriptions": 98,
+  "generated_at": "2026-09-08T14:00:02Z",
+  "total_skills": 100,
+  "skills_with_descriptions": 99,
   "skills_with_triggers": 81,
   "categories": [
     "agentorchard",
@@ -591,6 +591,15 @@
         "cli"
       ],
       "description": ">-",
+      "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-cloudrobo-resource",
+      "category": "ai",
+      "service": "cloudrobo",
+      "services": [],
+      "description": ">",
       "triggers": [],
       "has_description": true
     },
