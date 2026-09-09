@@ -2,9 +2,9 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-09T12:00:02Z",
-  "total_skills": 108,
-  "skills_with_descriptions": 107,
+  "generated_at": "2026-09-09T13:00:04Z",
+  "total_skills": 109,
+  "skills_with_descriptions": 108,
   "skills_with_triggers": 82,
   "categories": [
     "agentorchard",
@@ -1838,6 +1838,17 @@
         "LLM4AD",
         "algorithm optimization"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-publish-work-to-gallery",
+      "category": "devtools",
+      "service": "as",
+      "services": [
+        "as"
+      ],
+      "description": "Publish user's work to the Huawei Cloud University Operations Platform (华为云高校运营平台/作品陈列馆).\n  Use this skill whenever the user wants to publish, submit, or upload a project/work to the gallery or a training camp\n  (训练营) on the platform — including casual phrasings like \"把作品发布上去\", \"投稿到陈列馆\", \"传作品到平台\", \"提交作品/项目\", \"报名发布作品\",\n  as well as formal ones like \"publish to work gallery\", \"submit to training camp\", \"upload work to the platform\".\n  Do NOT use for general dev questions, git push to GitCode alone, or platform browsing without publishing intent.\nmetadata:\n  tags: huawei-cloud,publish,gallery,university operations platform",
+      "triggers": [],
       "has_description": true
     },
     {
