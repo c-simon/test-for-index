@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-09T10:00:01Z",
-  "total_skills": 105,
-  "skills_with_descriptions": 104,
-  "skills_with_triggers": 81,
+  "generated_at": "2026-09-09T11:00:03Z",
+  "total_skills": 106,
+  "skills_with_descriptions": 105,
+  "skills_with_triggers": 82,
   "categories": [
     "agentorchard",
     "ai",
@@ -1803,6 +1803,22 @@
         "bge embedding openviking",
         "切换向量化模型",
         "OpenViking模型切换\""
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-optv-evolve-management",
+      "category": "ai",
+      "service": "iam",
+      "services": [
+        "iam"
+      ],
+      "description": "Huawei Cloud algorithm auto-design (LLM4AD) skill.\n  Performs the full lifecycle through KooCLI (command-line entry `hcloud`): algorithm project management, file upload, evolve task CRUD, status polling, result retrieval, and log inspection;\n  also uses KooCLI's `hcloud IAM` subcommand to create the trust agency and grant algorithm design module bucket permissions.\n  Trigger words: code evolution, evolve task, LLM4AD, algorithm optimization,\n  upload algorithm file, create evolve task, start evolve task, fetch evolve result, evolve log,\n   代码演化, 演化任务, LLM4AD, code evolution, 算法优化,\n  上传算法文件, 创建演化任务, 启动演化任务, 拉取演化结果, 演化日志\ntags: [huawei-cloud, optverse, llm4ad, code-evolution, python, cpp]",
+      "triggers": [
+        "words: code evolution",
+        "evolve task",
+        "LLM4AD",
+        "algorithm optimization"
       ],
       "has_description": true
     },
