@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-10T07:00:04Z",
-  "total_skills": 109,
-  "skills_with_descriptions": 108,
-  "skills_with_triggers": 82,
+  "generated_at": "2026-09-10T08:00:03Z",
+  "total_skills": 112,
+  "skills_with_descriptions": 111,
+  "skills_with_triggers": 84,
   "categories": [
     "agentorchard",
     "ai",
@@ -631,6 +631,30 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-cloudrobo-model-workflow",
+      "category": "ai",
+      "service": "cloudrobo",
+      "services": [],
+      "description": "Model development orchestration Skill covering asset query, model training, inference deployment, and real-robot evaluation in any combination. Supports full end-to-end pipeline or partial stages (e.g., train+deploy only, deploy+eval only). When user requirements involve two or more stages, prefer this Skill over individual module Skills.\n  Triggers include: \"用XX机器人训练XX任务\", \"so101 插笔\", \"训练部署\", \"部署评测\", \"训练评测部署\", \"模型开发流程\", \"端到端训练\", \"训练推理评测\", \"只训练不评测\", \"训练完部署\", \"model workflow\", \"end-to-end training\", \"train and deploy\", \"deploy and eval\".\ntags:\n  - huawei-cloud-cloudrobo\n  - model-workflow\n  - training\n  - inference\n  - evaluation",
+      "triggers": [
+        "s include: \"用XX机器人训练XX任务",
+        "so101 插笔",
+        "训练部署",
+        "部署评测",
+        "训练评测部署",
+        "模型开发流程",
+        "端到端训练",
+        "训练推理评测",
+        "只训练不评测",
+        "训练完部署",
+        "model workflow",
+        "end-to-end training",
+        "train and deploy",
+        "deploy and eval\""
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-cloudrobo-r2c",
       "category": "ai",
       "service": "cloudrobo",
@@ -641,6 +665,15 @@
     },
     {
       "name": "huawei-cloud-cloudrobo-resource",
+      "category": "ai",
+      "service": "cloudrobo",
+      "services": [],
+      "description": ">",
+      "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-cloudrobo-robot",
       "category": "ai",
       "service": "cloudrobo",
       "services": [],
@@ -1590,6 +1623,24 @@
         "KrbServer故障",
         "DBService故障",
         "fault troubleshooting"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-mrs-redis-meta-check",
+      "category": "bigdata",
+      "service": "mrs",
+      "services": [
+        "mrs"
+      ],
+      "description": "Checks Redis cluster metadata files (nodes-*.conf) for integrity, detecting 7 categories of metadata issues that cause Redis instance startup failures, connection anomalies, and fault alerts.\n  执行7项检查：slot槽位完整性、master/slave实例个数、文件格式(4个模块)、文件名端口一致性、端口关系、主备关系、myself标记。\n  Use this skill when the user mentions Redis metadata file checks, nodes-*.conf checks, or Redis cluster configuration checks.\n  Use it whenever the user asks about Redis startup failures or connection anomalies.",
+      "triggers": [
+        "Redis元数据检查",
+        "Redis nodes检查",
+        "Redis cluster配置检查",
+        "检查Redis元数据",
+        "Redis元数据校验",
+        "Redis启动失败排查"
       ],
       "has_description": true
     },
