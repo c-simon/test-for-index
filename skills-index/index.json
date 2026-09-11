@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-11T03:00:05Z",
-  "total_skills": 114,
-  "skills_with_descriptions": 113,
-  "skills_with_triggers": 86,
+  "generated_at": "2026-09-11T04:00:03Z",
+  "total_skills": 120,
+  "skills_with_descriptions": 119,
+  "skills_with_triggers": 88,
   "categories": [
     "agentorchard",
     "ai",
@@ -17,6 +17,7 @@
     "content&edge",
     "devtools",
     "edge",
+    "middleware",
     "monitoring",
     "network",
     "security",
@@ -55,6 +56,17 @@
         "search skill",
         "find skill\""
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-apig-instance-management",
+      "category": "middleware",
+      "service": "apig",
+      "services": [
+        "apig"
+      ],
+      "description": ">",
+      "triggers": [],
       "has_description": true
     },
     {
@@ -739,6 +751,56 @@
       "has_description": true
     },
     {
+      "name": "huawei-cloud-cts-trace-management",
+      "category": "monitoring",
+      "service": "cts",
+      "services": [],
+      "description": ">",
+      "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-dds-dcs-instance-management",
+      "category": "storage",
+      "service": "dds",
+      "services": [
+        "dds",
+        "dcs",
+        "cli",
+        "as"
+      ],
+      "description": "Huawei Cloud DDS (Document Database Service) and DCS (Distributed Cache Service) unified management skill. Provides 16 operations across five capability domains: (1) Query — list/get DDS/DCS instances, DCS node info, DCS custom templates; (2) Analysis — analyze DDS deployment architecture and DCS security posture; (3) DDS Management — create instance, add read-only/sharding nodes, create backup, delete instance; (4) DCS Management — create instance, create custom template, delete instance, restart instance; (5) Multi-mode execution using hcloud CLI for available operations and huaweicloudsdk Python SDK as fallback. Auth via AK/SK environment variables or hcloud profile. All mutating operations require explicit user confirmation.\n  Triggers include: \"DDS\",\"DCS\",\"文档数据库\",\"分布式缓存\",\"数据库实例\",\"缓存实例\",\"MongoDB\",\"Redis\",\"Memcached\",\"DDS实例\",\"DCS实例\",\"数据库运维\",\"缓存运维\",\"文档数据库查询\",\"分布式缓存查询\",\"DDS管理\",\"DCS管理\",\"缓存节点\",\"自定义模板\",\"document database\",\"distributed cache\",\"DDS instances\",\"DCS instances\",\"MongoDB cluster\",\"Redis cache\",\"dds-dcs\".\ntags: [huawei-cloud, dds, dcs, database, cache]",
+      "triggers": [
+        "s include: \"DDS",
+        "DCS",
+        "文档数据库",
+        "分布式缓存",
+        "数据库实例",
+        "缓存实例",
+        "MongoDB",
+        "Redis",
+        "Memcached",
+        "DDS实例",
+        "DCS实例",
+        "数据库运维",
+        "缓存运维",
+        "文档数据库查询",
+        "分布式缓存查询",
+        "DDS管理",
+        "DCS管理",
+        "缓存节点",
+        "自定义模板",
+        "document database",
+        "distributed cache",
+        "DDS instances",
+        "DCS instances",
+        "MongoDB cluster",
+        "Redis cache",
+        "dds-dcs\""
+      ],
+      "has_description": true
+    },
+    {
       "name": "huawei-cloud-deployment-task-management",
       "category": "devtools",
       "service": "obs",
@@ -804,6 +866,15 @@
         "安装DevKit",
         "鲲鹏开发套件"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-dew-key-management",
+      "category": "security",
+      "service": "dew",
+      "services": [],
+      "description": ">-",
+      "triggers": [],
       "has_description": true
     },
     {
@@ -1207,6 +1278,41 @@
         "创建定时器",
         "FunctionGraph trigger",
         "schedule function execution\""
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-gaussdb-instance-management",
+      "category": "storage",
+      "service": "gaussdb",
+      "services": [
+        "gaussdb",
+        "cli"
+      ],
+      "description": "Huawei Cloud GaussDB distributed database (GaussDB for MySQL 兼容版 and GaussDB for openGauss 分布式版) management and diagnosis skill. Provides 12 huawei_* actions across three capability tiers: (1) Query (R3, read-only auto-execute) — list/get instances, list flavors, list databases; (2) Analyze (R3, read-only auto-execute) — deployment-form analysis (shards/readonly nodes/engine version) and security configuration analysis (security group port/SSL); (3) Manage (R2/R1, preview + user confirmation) — create instance, create backup, add readonly node, add sharding node, update database permission, delete instance. Preserves 3 Critical Warnings: shard key is permanent once set, distributed GaussDB requires at least 3 nodes, and MySQL-compatible vs openGauss are separate products with pinned engine versions. Declares hcloud GaussDB CLI dependency; supports both AK/SK credentials and a locally configured hcloud profile.\n  Triggers include: \"GaussDB\", \"华为云GaussDB\", \"分布式数据库\", \"GaussDB(for MySQL)\", \"GaussDB(for openGauss)\", \"openGauss\", \"sharding\", \"分片\", \"添加分片节点\", \"只读节点\", \"readonly node\", \"GaussDB实例\", \"GaussDB备份\", \"数据库权限\", \"部署形态分析\", \"安全配置分析\", \"GaussDB诊断\", \"GaussDB运维\", \"gaussdb\", \"HTAP\", \"GaussDB部署检查\", \"GaussDB安全基线\".\ntags: [huawei-cloud, gaussdb, database, distributed-database, devops]",
+      "triggers": [
+        "s include: \"GaussDB",
+        "华为云GaussDB",
+        "分布式数据库",
+        "GaussDB(for MySQL)",
+        "GaussDB(for openGauss)",
+        "openGauss",
+        "sharding",
+        "分片",
+        "添加分片节点",
+        "只读节点",
+        "readonly node",
+        "GaussDB实例",
+        "GaussDB备份",
+        "数据库权限",
+        "部署形态分析",
+        "安全配置分析",
+        "GaussDB诊断",
+        "GaussDB运维",
+        "gaussdb",
+        "HTAP",
+        "GaussDB部署检查",
+        "GaussDB安全基线\""
       ],
       "has_description": true
     },
@@ -2402,6 +2508,15 @@
         "poor experience",
         "voice of developer"
       ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-waf-aad-rule-management",
+      "category": "security",
+      "service": "waf-aad",
+      "services": [],
+      "description": ">-",
+      "triggers": [],
       "has_description": true
     }
   ]
