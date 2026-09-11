@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-11T02:00:01Z",
-  "total_skills": 112,
-  "skills_with_descriptions": 111,
-  "skills_with_triggers": 84,
+  "generated_at": "2026-09-11T03:00:05Z",
+  "total_skills": 114,
+  "skills_with_descriptions": 113,
+  "skills_with_triggers": 86,
   "categories": [
     "agentorchard",
     "ai",
@@ -735,6 +735,23 @@
         "instance",
         "image",
         "scaling"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-deployment-task-management",
+      "category": "devtools",
+      "service": "obs",
+      "services": [
+        "obs"
+      ],
+      "description": "Huawei Cloud CloudDeploy (CodeArts Deploy / 部署) management, execution, and failure analysis\n  using the KooCLI hcloud command-line client. Covers deploy application listing and creation,\n  deployment task listing/detail/creation, task start, task deletion, deployment failure\n  root-cause analysis (agent offline, timeout, missing artifact, permission), and OBS artifact\n  link verification. Query and Analyze actions run automatically (R3); Create/Start actions\n  require preview and user confirmation (R2); Delete requires explicit confirmation (R1).\n  Supports AK/SK credentials and local hcloud profile authentication.\n  Triggers include: \"CloudDeploy\", \"CodeArts Deploy\", \"部署\", \"deploy task\", \"deployment\",\n  \"deployment task\", \"deploy application\", \"部署任务\", \"部署应用\", \"start deploy\", \"发布\",\n  \"release\", \"artifact deployment\", \"制品部署\", \"deploy failure\", \"部署失败\",\n  \"pipeline deployment\", \"CI/CD deployment\".\ntriggers:\n  - \"CloudDeploy\"\n  - \"CodeArts Deploy\"\n  - \"部署\"\n  - \"deploy task\"\n  - \"deployment\"\n  - \"deployment task\"\n  - \"deploy application\"\n  - \"部署任务\"\n  - \"部署应用\"\n  - \"start deploy\"\n  - \"发布\"\n  - \"release\"\n  - \"artifact deployment\"\n  - \"制品部署\"\n  - \"deploy failure\"\n  - \"部署失败\"\n  - \"pipeline deployment\"\n  - \"CI/CD deployment\"\ntags: [huawei-cloud, clouddeploy, codearts, deployment, devops]",
+      "triggers": [
+        "s include: \"CloudDeploy",
+        "CodeArts Deploy",
+        "部署",
+        "deploy task",
+        "deployment"
       ],
       "has_description": true
     },
@@ -2072,6 +2089,36 @@
       "triggers": [
         "-conflict detection",
         "and consolidated reporting"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-smn-dms-message",
+      "category": "monitoring",
+      "service": "smn",
+      "services": [
+        "smn",
+        "dms"
+      ],
+      "description": "Manage Huawei Cloud SMN (Simple Message Notification) topics, subscriptions, message templates and message publishing, and manage DMS (Distributed Message Service) Kafka/RabbitMQ/RocketMQ instances and Kafka topics. 15 built-in actions cover query (list topics/subscriptions/message templates/DMS instances/Kafka topics), diagnosis (subscription confirmation status, DMS instance health & capacity), management (create topic, add subscription, create message template, publish message, create DMS instance) and destructive operations (delete SMN topic, confirm subscription, delete DMS instance). KooCLI has no DMS command; the three engine services are the only DMS entry points. Supports both AK/SK and local KooCLI profile authentication.\n  Use this skill when the user wants to: (1) list or create SMN topics and subscriptions, (2) send or diagnose notifications, (3) inspect SMN subscription confirmation status, (4) list, create, or delete DMS Kafka/RabbitMQ/RocketMQ instances, (5) list Kafka topics, (6) analyze DMS instance health or capacity.\n  Triggers include: \"SMN\", \"SMN主题\", \"消息通知\", \"subscribe\", \"topic\", \"发布消息\", \"推送消息\", \"notification\", \"DMS\", \"Kafka\", \"RabbitMQ\", \"RocketMQ\", \"消息队列\", \"实例\", \"订阅\", \"消息模板\", \"MQS\"\ntags: [\"smn\", \"dms\", \"kafka\", \"rabbitmq\", \"rocketmq\", \"notification\"]",
+      "triggers": [
+        "s include: \"SMN",
+        "SMN主题",
+        "消息通知",
+        "subscribe",
+        "topic",
+        "发布消息",
+        "推送消息",
+        "notification",
+        "DMS",
+        "Kafka",
+        "RabbitMQ",
+        "RocketMQ",
+        "消息队列",
+        "实例",
+        "订阅",
+        "消息模板",
+        "MQS"
       ],
       "has_description": true
     },
