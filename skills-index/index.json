@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-11T09:00:01Z",
+  "generated_at": "2026-09-11T10:00:04Z",
   "total_skills": 120,
   "skills_with_descriptions": 119,
   "skills_with_triggers": 88,
@@ -1973,7 +1973,7 @@
       "services": [
         "cli"
       ],
-      "description": "Integrate and unbind OpenViking long-term memory with coding agents. Supports 8 agents (CodeArts CLI, OpenCode, OpenClaw, Hermes, JiuwenSwarm, KimiCode, DeepSeek Harness, Prime Agent) via their native mechanism — MCP, HTTP memory provider, TypeScript extension hooks, or settings.json config. Both integration and unbinding require explicit user authorization.\n  Use this skill when the user wants to: (1) integrate OpenViking memory into a coding agent, (2) unbind OpenViking from a coding agent, (3) check the integration status of all agents, (4) verify the OpenViking MCP endpoint, (5) rebuild the OpenClaw sandbox to apply template changes.\n  Trigger words: \"OpenViking integration\", \"agent memory binding\", \"MCP setup\", \"OpenViking MCP\", \"integrate OpenViking\", \"unbind OpenViking\", \"记忆集成\", \"记忆解绑\", \"OpenViking 集成\", \"OpenViking 解绑\", \"agent long-term memory\", \"context database\".\ntags:\n  - openviking\n  - database\n  - agent\nmetadata:\n  version: 1.2.0\n  license: MIT\n  category: devtools",
+      "description": "Integrate and unbind OpenViking long-term memory with coding agents. Supports 8 agents (CodeArts CLI, OpenCode, OpenClaw, Hermes, WorkSwarm, KimiCode, DeepSeek Harness, Prime Agent) via their native mechanism — MCP, HTTP memory provider, TypeScript extension hooks, or settings.json config. Both integration and unbinding require explicit user authorization.\n  Use this skill when the user wants to: (1) integrate OpenViking memory into a coding agent, (2) unbind OpenViking from a coding agent, (3) check the integration status of all agents, (4) verify the OpenViking MCP endpoint, (5) rebuild the OpenClaw sandbox to apply template changes.\n  Trigger words: \"OpenViking integration\", \"agent memory binding\", \"MCP setup\", \"OpenViking MCP\", \"integrate OpenViking\", \"unbind OpenViking\", \"记忆集成\", \"记忆解绑\", \"OpenViking 集成\", \"OpenViking 解绑\", \"agent long-term memory\", \"context database\".\ntags:\n  - openviking\n  - database\n  - agent\nmetadata:\n  version: 1.2.1\n  license: MIT\n  category: devtools",
       "triggers": [
         "words: \"OpenViking integration",
         "agent memory binding",
