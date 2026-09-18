@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-18T10:00:04Z",
-  "total_skills": 120,
-  "skills_with_descriptions": 119,
-  "skills_with_triggers": 88,
+  "generated_at": "2026-09-18T11:00:04Z",
+  "total_skills": 122,
+  "skills_with_descriptions": 121,
+  "skills_with_triggers": 90,
   "categories": [
     "agentorchard",
     "ai",
@@ -2517,6 +2517,40 @@
       "services": [],
       "description": ">-",
       "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-waf-policy-manage",
+      "category": "security",
+      "service": "waf",
+      "services": [
+        "waf"
+      ],
+      "description": "Import WAF protection policies from JSON files exported by huawei-cloud-waf-policy-query, supporting creation of new policies or overwriting existing ones. Triggers include: import WAF policy, create policy from JSON, overwrite WAF policy, JSON import protection policy",
+      "triggers": [
+        "s include: import WAF policy",
+        "create policy from JSON",
+        "overwrite WAF policy",
+        "JSON import protection policy"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-waf-policy-query",
+      "category": "security",
+      "service": "waf",
+      "services": [
+        "waf"
+      ],
+      "description": "Query Huawei Cloud WAF protection policies. Trigger phrases include: \"query protection policies\", \"list protection policies\", \"show available policies\", \"view protection policy details\", \"WAF protection posture\", \"view WAF protection configuration\".",
+      "triggers": [
+        "phrases include: \"query protection policies",
+        "list protection policies",
+        "show available policies",
+        "view protection policy details",
+        "WAF protection posture",
+        "view WAF protection configuration\""
+      ],
       "has_description": true
     }
   ]
