@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-20T05:00:01Z",
-  "total_skills": 122,
-  "skills_with_descriptions": 121,
-  "skills_with_triggers": 90,
+  "generated_at": "2026-09-20T06:00:04Z",
+  "total_skills": 123,
+  "skills_with_descriptions": 122,
+  "skills_with_triggers": 91,
   "categories": [
     "agentorchard",
     "ai",
@@ -840,6 +840,30 @@
         "devbridge",
         "DevSpace",
         "开发空间隧道"
+      ],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-devkit-application-check-cli",
+      "category": "computing",
+      "service": "cli",
+      "services": [
+        "cli",
+        "ecs",
+        "obs"
+      ],
+      "description": "Use Kunpeng DevKit CLI to collect installed software information (packages, middleware, databases) from application systems, analyze Maven POM file dependency compatibility, and generate migration assessment reports.Automatically creates a Kunpeng ECS server, uploads DevKit scripts, and on user request installs DevKit and executes scans.\n  Trigger words: \"system migration\", \"information collection\", \"maven migration\", \"container migration\", \"system migration assessment\", \"系统迁移\", \"信息收集\", \"maven迁移\", \"容器迁移\", \"系统迁移评估\"\ntags:\n  - DevKit Application Check\n  - Kunpeng Migration Assessment\n  - Maven POM Compatibility\n  - System Migration\n  - Software Compatibility Analysis\nmetadata: {\"devkit\": {\"version\": \"1.0.0\", \"requires\": {\"bins\": [\"hcloud\"]}, \"install\": [{\"kind\": \"shell\", \"command\": \"Invoke-WebRequest -Uri https://cn-north-4-hdn-koocli.obs.cn-north-4.myhuaweicloud.com/cli/latest/hcloud_install.sh -OutFile ./hcloud_install.sh; bash ./hcloud_install.sh -y\"}]}, \"execution_modes\": {\"cli\": {\"description\": \"hcloud CLI commands (28 commands)\", \"available\": true}, \"sdk\": {\"description\": \"Huawei Cloud SDK (22 of 32 commands have SDK equivalents)\", \"available\": true, \"note\": \"22 hcloud CLI commands have SDK equivalents; 6 CLI-only commands and 4 local scripts do not\"}, \"api\": {\"description\": \"REST API (22 of 32 commands have API equivalents)\", \"available\": true, \"note\": \"22 hcloud CLI commands have API equivalents; 6 CLI-only commands and 4 local scripts do not\"}, \"manual\": {\"description\": \"Local script execution (4 scripts)\", \"available\": true, \"scripts\": [\"scripts/devkit_remote.py\", \"scripts/encrypt-nodes-verify.sh\", \"scripts/install_devkit.sh\", \"scripts/scan_devkit.sh\"]}}}\nversion: v1.1.0",
+      "triggers": [
+        "words: \"system migration",
+        "information collection",
+        "maven migration",
+        "container migration",
+        "system migration assessment",
+        "系统迁移",
+        "信息收集",
+        "maven迁移",
+        "容器迁移",
+        "系统迁移评估"
       ],
       "has_description": true
     },
