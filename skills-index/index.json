@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-21T01:00:01Z",
+  "generated_at": "2026-09-21T02:00:06Z",
   "total_skills": 124,
   "skills_with_descriptions": 123,
   "skills_with_triggers": 91,
@@ -1744,7 +1744,7 @@
       "services": [
         "mrs"
       ],
-      "description": "Huawei Cloud MRS cluster alarm diagnosis skill. Analyzes the root cause of an MRS alarm based on user-provided alarm information (alarm ID, alarm name, alarm details, occurrence time, node IP, related service and logs), then outputs the root cause, repair steps, and verification method.\n  Diagnosis is driven by the built-in LakeWatch API client and the per-alarm knowledge base under alarms/. No commands outside the knowledge base are fabricated.\n  Applicable to MRS alarm diagnosis and root cause localization scenarios where an alarm ID is provided.\n  Trigger words: \"告警诊断\", \"告警定位\", \"alarm diagnosis\", \"alarm diagnose\", \"MRS告警\", \"告警原因\", \"告警ID\", \"alarm ID\", \"root cause\"\ntags: [huawei-cloud, mrs, alarm, diagnostics, troubleshooting]",
+      "description": "Huawei Cloud MRS cluster alarm diagnosis skill. Analyzes the root cause of an MRS alarm based on user-provided alarm information (alarm ID, alarm name, alarm details, occurrence time, node IP, related service and logs), then outputs the root cause, repair steps, and verification method.\n  Diagnosis is driven by the built-in LakeWatch API client (lakewatch mode) or the MRS Manager API client (manager mode) and the per-alarm knowledge base under alarms/ (lakewatch) or alarm_manager/ (manager). The API mode is auto-detected by check_api_mode.py. No commands outside the knowledge base are fabricated.\n  Applicable to MRS alarm diagnosis and root cause localization scenarios where an alarm ID is provided.\n  Trigger words: \"告警诊断\", \"告警定位\", \"alarm diagnosis\", \"alarm diagnose\", \"MRS告警\", \"告警原因\", \"告警ID\", \"alarm ID\", \"root cause\"\ntags: [huawei-cloud, mrs, alarm, diagnostics, troubleshooting]",
       "triggers": [
         "words: \"告警诊断",
         "告警定位",
@@ -1765,7 +1765,7 @@
       "services": [
         "mrs"
       ],
-      "description": "Huawei Cloud MRS cluster fault diagnosis skill. Diagnoses service faults, instance faults, and host faults through progressive root cause localization: quick log scan first, host troubleshooting when host issues are found, detailed investigation when no conclusion is reached.\n  Driven by the built-in LakeWatch API client and the per-component knowledge base under components/. No commands outside the knowledge base are fabricated.\n  Applicable to MRS fault diagnosis and root cause localization scenarios where a service name or node name is provided.\n  Trigger words: \"故障诊断\", \"故障定位\", \"fault diagnosis\", \"fault diagnose\", \"MRS故障\", \"服务故障\", \"实例故障\", \"主机故障\", \"集群排查\", \"集群诊断\", \"启动失败\", \"停止异常\", \"KrbServer故障\", \"DBService故障\", \"fault troubleshooting\"\ntags: [huawei-cloud, mrs, fault, diagnostics, troubleshooting]",
+      "description": "Huawei Cloud MRS cluster fault diagnosis skill. Diagnoses service faults, instance faults, and host faults through progressive root cause localization: quick log scan first, host troubleshooting when host issues are found, detailed investigation when no conclusion is reached.\n  Diagnosis is driven by the built-in LakeWatch API client (lakewatch mode) or the MRS Manager API client (manager mode) and the per-layer knowledge base under fault_layer/ and scenarios/ (lakewatch) or fault_layer_manager/ and scenarios_manager/ (manager). The API mode is auto-detected by check_api_mode.py. No commands outside the knowledge base are fabricated.\n  Applicable to MRS fault diagnosis and root cause localization scenarios where a service name or node name is provided.\n  Trigger words: \"故障诊断\", \"故障定位\", \"fault diagnosis\", \"fault diagnose\", \"MRS故障\", \"服务故障\", \"实例故障\", \"主机故障\", \"集群排查\", \"集群诊断\", \"启动失败\", \"停止异常\", \"KrbServer故障\", \"DBService故障\", \"fault troubleshooting\"\ntags: [huawei-cloud, mrs, fault, diagnostics, troubleshooting]",
       "triggers": [
         "words: \"故障诊断",
         "故障定位",
