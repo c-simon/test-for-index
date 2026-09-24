@@ -2,7 +2,7 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-24T02:00:03Z",
+  "generated_at": "2026-09-24T03:00:03Z",
   "total_skills": 127,
   "skills_with_descriptions": 126,
   "skills_with_triggers": 93,
@@ -1039,7 +1039,7 @@
         "ecs",
         "iam"
       ],
-      "description": "Configure passwordless SSH login to Huawei Cloud ECS instances using COC (Cloud Operations Center). Automates IAM agency authorization, SSH key pair generation, COC script deployment to the target ECS, SSH connection testing, and automatic security cleanup after 60 seconds (removing keys from both local and remote).\n  触发词: 免密登录, COC SSH, ECS key login, SSH key deployment, passwordless SSH",
+      "description": "Configure passwordless SSH login to Huawei Cloud ECS instances using COC (Cloud Operations Center). Automates IAM agency authorization, SSH key pair generation, COC script deployment to one or many target ECS instances (batch), SSH connection testing, and automatic security cleanup after 60 seconds (removing keys from both local and remote).\n  触发词: 免密登录, COC SSH, ECS key login, SSH key deployment, passwordless SSH",
       "triggers": [],
       "has_description": true
     },
