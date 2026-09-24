@@ -2,10 +2,10 @@
   "repo": "huaweicloud/huaweicloud-skills",
   "platform": "gitcode",
   "branch": "master",
-  "generated_at": "2026-09-24T01:00:01Z",
-  "total_skills": 126,
-  "skills_with_descriptions": 125,
-  "skills_with_triggers": 92,
+  "generated_at": "2026-09-24T02:00:03Z",
+  "total_skills": 127,
+  "skills_with_descriptions": 126,
+  "skills_with_triggers": 93,
   "categories": [
     "agentorchard",
     "ai",
@@ -1367,6 +1367,26 @@
       "services": [],
       "description": ">-",
       "triggers": [],
+      "has_description": true
+    },
+    {
+      "name": "huawei-cloud-iac-reverse",
+      "category": "devtools",
+      "service": "terraform",
+      "services": [
+        "terraform",
+        "rms"
+      ],
+      "description": "Reverse-engineer existing Huawei Cloud resources into deployable Terraform IaC code.\n  Queries all resources via RMS (Config/配置审计) API, analyzes specs and topology\n  service-by-service, then synthesizes Terraform HCL configurations with provider\n  validation. Use when the user wants to generate IaC from existing cloud resources,\n  migrate infrastructure to code, or reverse-engineer cloud topology.\n  Triggers include: \"逆向生成IaC\", \"反向生成Terraform\", \"从现有资源生成代码\", \"reverse engineer IaC\", \"generate Terraform from existing resources\", \"infrastructure to code\", \"cloud to IaC\".\ntriggers:\n  - \"逆向生成IaC\"\n  - \"反向生成Terraform\"\n  - \"从现有资源生成代码\"\n  - \"reverse engineer IaC\"\n  - \"generate Terraform from existing resources\"\n  - \"infrastructure to code\"\n  - \"cloud to IaC\"\ntags: [huawei-cloud terraform iac reverse-engineering rms config]",
+      "triggers": [
+        "s include: \"逆向生成IaC",
+        "反向生成Terraform",
+        "从现有资源生成代码",
+        "reverse engineer IaC",
+        "generate Terraform from existing resources",
+        "infrastructure to code",
+        "cloud to IaC\""
+      ],
       "has_description": true
     },
     {
